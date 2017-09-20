@@ -1,0 +1,31 @@
+@media(min-width: 350px) {
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+header > div, section > div { /*targeting ONLY the very first div inside a section tag.*/
+	max-width: 500px;
+	padding: 20px;
+}
+
+header, section {
+	padding: 25px;
+}
+
+ul li {
+	margin: 20px;
+	font-size: 14px;
+}
+
+div#footer div {
+	font-size: 14px;
+	text-align: center;
+	height: 80px;   /* Height of the footer */
+}
+
+}

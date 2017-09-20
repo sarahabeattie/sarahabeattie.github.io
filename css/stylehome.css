@@ -1,0 +1,21 @@
+
+/*BACKGROUND IMAGE*/
+
+body { 
+  background: url(../images/Spring2013_graduates_bw.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*MAIN HEADER*/
+
+header {
+	height: 100vh;
+}
+
+
+header > div:first-child {
+	margin-top: 25vh;
+}

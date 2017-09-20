@@ -1,0 +1,163 @@
+@media(min-width: 280px) {
+
+/*DEFAULT CSS STARTER*/
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+/*MAIN NAVIGATION BAR*/
+
+div.nav {
+	overflow: hidden;
+	background-color: none;
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+}
+
+div.nav ul {
+	max-width: 600px;
+	margin: auto;
+}
+
+div.nav ul li, div.nav ul li a {
+	color: #C5C2C3;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 16px;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+	width: 150px;
+	margin: 5px auto;
+
+}
+
+div.nav ul li a.thispage {
+	text-transform: uppercase;
+	color: #F58025;
+}
+
+div.nav ul li.donate {
+	background-color: #F58025;
+	border: 1px solid white;
+	border-radius: 2px; 
+	float: right;
+}
+
+div.nav ul li.donate a {
+	color: white;
+}
+
+div.nav ul li a:hover, div.nav ul li.donate a:hover {
+	text-transform: uppercase;
+	color: #F58025;
+}
+
+
+/*HEADERS*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Fredericka the Great', cursive;
+	margin: 20px 0px;
+}
+
+h1 {
+	font-size: 98px;
+	text-align: center;
+	color: #16023B;
+
+}
+
+h2 {
+	font-size: 68px;
+}
+
+h3 {
+	font-size: 32px;
+}
+
+h4 {
+	font-size: 26px;
+	text-align: center;
+	color: white;
+}
+
+h5 {
+	font-size: 22px;
+}
+
+h6 {
+	font-size: 18px;
+}
+
+
+/*BODY COPY*/
+
+p {
+	font-size: 20px;
+	color: white;
+	font-family: 'Lato', sans-serif;
+}
+
+
+/*MAIN HEADER*/
+
+section:nth-child(odd) {
+	background-color: #7a7a7a;
+}
+
+section:nth-child(even) {
+	background-color: #16023B;
+}
+
+header > div, section > div { /*targeting ONLY the very first div inside a section tag.*/
+	max-width: 1000px;
+	margin: auto;
+}
+
+header, section {
+	padding: 50px;
+}
+
+button {
+	background-color: #F58025;
+	border: 1px solid white;
+	border-radius: 2px; 
+	text-align: center;
+	margin-top: 20px;
+	color: white;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 26px;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+img {
+	max-width: 100%; /*Means image will only get as wide as it is naturally, NOT the width of the screen.*/
+	height: auto; /*Means image will resize proportionally*/
+}
+
+div.slider {
+	background-color: #16023B;
+}
+
+div.slider img {
+	margin: 20px auto;
+}
+
+.more-info {
+	display: none;
+}
+
+} /*closing media-query*/

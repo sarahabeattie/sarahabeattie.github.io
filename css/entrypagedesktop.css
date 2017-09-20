@@ -1,0 +1,55 @@
+@media(min-width: 900px) {
+
+/*DEFAULT CSS STARTER*/
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*BACKGROUND IMAGE*/
+
+body { 
+  background: url(../images/Spring2013_graduates_bw.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*HEADINGS*/
+h1, h2, h3, h4, h5, h6 {
+	padding: 15px;
+}
+
+h1 {
+	font-size: 68px;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+header > div, section > div { /*targeting ONLY the very first div inside a section tag.*/
+	max-width: 1000px;
+	padding: 25px;
+}
+
+header, section {
+	padding: 50px;
+}
+
+ul li {
+	text-align: center;
+	margin: 25px;
+	font-size: 20px;
+}
+
+ul li:last-child {
+	font-size: 24px;
+}

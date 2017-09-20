@@ -1,0 +1,100 @@
+
+
+/*DEFAULT CSS STARTER*/
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*BACKGROUND IMAGE*/
+
+body { 
+  background: url(../images/Spring2013_graduates_bw.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+#wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+/*HEADINGS*/
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Fredericka the Great', cursive;
+	text-align: center;
+	color: #16023B;
+}
+
+header > div { /*targeting ONLY the very first div inside tag.*/
+	margin: auto;	
+	background-color: rgba(255,255,255,0.7);
+	border: 1px solid white;
+}
+
+ul li {
+	text-align: center;
+	margin: 25px;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+
+ul li a {
+	color: white;
+	text-decoration: none;
+	background-color: #F58025;
+	border: 1px solid white;
+	border-radius: 5px; 
+	padding: 5px;
+}
+
+ul li a:hover {
+	color: #16023B;
+}
+
+ul li:last-child, ul li a#home  {
+	color: #16023B;
+	margin: 50px 0px;
+	background-color: transparent;
+	border: none;
+	border-radius: none; 
+	padding: 0px;
+}
+
+ul li a#home  {
+	text-decoration: underline;
+}
+
+ul li:last-child a#home:hover {
+	text-transform: uppercase;
+	/*background-color: transparent;*/
+}
+
+#footer {
+	background-color: rgba(255,255,255,0.7);
+	border-top: 1px solid white;
+	width: 100%;
+}
+
+div#footer div {
+	margin: auto;
+	font-family: 'Lato', sans-serif;
+	position: relative;
+}	
+
+}

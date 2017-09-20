@@ -1,0 +1,43 @@
+@media(min-width: 600px) {
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 10px;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+header > div, section > div { /*targeting ONLY the very first div inside a section tag.*/
+	max-width: 800px;
+	padding: 25px;
+}
+
+header, section {
+	padding: 25px;
+}
+
+ul li {
+	margin: 25px;
+	font-size: 18px;
+}
+
+ul li:last-child {
+	font-size: 18px;
+}
+
+ul li a:hover {
+	text-transform: uppercase;
+}
+
+div#footer div {
+	font-size: 18px;
+	text-align: center;
+	height: 100px;   /* Height of the footer */
+}
+
+}
