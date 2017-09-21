@@ -31,3 +31,7 @@ div#footer div {
 	text-align: left;
 	height: 50px;   /* Height of the footer */
 }	
+
+div#footer a:hover{
+	font-weight: bold;
+}
