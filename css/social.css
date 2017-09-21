@@ -34,7 +34,8 @@ aside {
    color: #fff;
    display: block;
    height: 35px;
-   font: 16px "Open Sans", sans-serif;
+   font: 14px;
+   font-family: "Lato", sans-serif;
    line-height: 35px;
    position: relative;
    text-align: center;
