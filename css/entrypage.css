@@ -47,7 +47,7 @@ header > div { /*targeting ONLY the very first div inside tag.*/
 	border: 1px solid white;
 }
 
-ul li {
+ul li, div#footer div {
 	text-align: center;
 	margin: 25px;
 	font-family: 'Lato', sans-serif;
@@ -83,6 +83,23 @@ ul li a#home  {
 ul li:last-child a#home:hover {
 	text-transform: uppercase;
 	/*background-color: transparent;*/
+}
+
+#footer {;
+	width: 100%;
+	background-color: #16023B; /*blue*/
+}
+
+div#footer div {
+	margin: auto;
+	color: white;
+	position: relative;
+	text-align: center;
+	height: 50px;   /* Height of the footer */
+}	
+
+div#footer a:hover{
+	font-weight: bold;
 }
 
 }
