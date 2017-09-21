@@ -133,7 +133,7 @@ div.more-info p, div.more-info a, div.more-info li {
 	color: #16023B; /*blue*/
 }
 
-/*div.more-info */li {
+div.more-info li, div.content li {
 	list-style: disc;
 	list-style-position: inside;
 }
@@ -158,7 +158,7 @@ button a {
 	color: white;
 }
 
-p a, li a {
+p a, div.more-info li a, div.content li a {
 	text-decoration: underline #F58025; /*orange*/
 }
 
