@@ -120,7 +120,7 @@ h6 {
 
 /*BODY COPY*/
 
-p, li, div.more-info p {
+p, li, div.more-info p, div#footer div {
 	font-size: 20px;
 	font-family: 'Lato', sans-serif;
 }
@@ -217,7 +217,12 @@ div.slider {
 
 div.slider img {
 	max-width: 900px;
-	margin: 15px auto;
+	margin: 10px auto;
+}
+
+div.slider p {
+	text-align: center;
+	margin: 0px 20px;
 }
 
 /*SECTION-SPECIFIC*/
