@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/styleglobal.css">
     <link rel="stylesheet" type="text/css" href="css/stylehome.css">
+    <link rel="stylesheet" href="css/menustyle.css">
     <!-- <link rel="stylesheet" href="css/mobile.css"> --> <!-- 280px - 640px -->
     <!-- INSERT TABLET PORTRAIT CSS --> <!-- 640px - 900px -->
     <!-- INSERT TABLET PORTRAIT CSS --> <!-- 900px - 1200px -->
@@ -31,14 +32,31 @@
 
 	<body>
     <a name="top" id="top"></a>
-    <div id="nav-main">
+    <div id="primary_nav_wrap">
       <ul>
-        <li ><a class="thispage" href="top">Home</a></li>
-        <li><a href="#">Who We Are</a></li>
-        <li><a href="#">Get Involved</a></li>
-        <li><a href="#">Programs</a></li>
+        <li class="current-menu-item"><a href="top">Home</a></li>
+        <li><a href="#">Who We Are</a>
+          <ul>
+            <li class="dir"><a href="#">Our Team</a></li>
+            <li class="dir"><a href="#">Our Mission</a></li>
+            <li class="dir"><a href="#">Our Girls</a></li>
+            <li class="dir"><a href="#">Gallery</a></li>
+            <li class="dir"><a href="#">Blog</a></li>
+          </ul>
+        <li><a href="#">Get Involved</a>
+          <ul>
+            <li><a href="#">Volunteer</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Job Postings</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Programs</a>
+          <ul>
+            <li class="dir"><a href="#">Apply Now!</a></li>
+          </ul>
+        </li>
         <li><a href="#">Contact Us</a></li>
-        <li class="donate"><a href="#">DONATE</a></li>
+        <li id="donate"><a href="#">Donate</a></li>
       </ul>
     </div>
     

@@ -2,9 +2,13 @@
 
 /*MAIN NAVIGATION BAR*/
 
-div#nav-main, div.nav-mobile {
+div#nav-main {
+	display: none;
+}
+
+div#nav-mobile {
 	overflow: hidden;
-	background-color: transparent;
+	background-color: #16023B; /*blue*/
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -26,7 +30,6 @@ div#nav-main ul li, div#nav-main ul li a {
 	float: left;
 	width: 150px;
 	margin: 5px auto;
-
 }
 
 div#nav-main ul li a.thispage {

@@ -11,6 +11,10 @@ body {
 
 /*MAIN HEADER*/
 
+span#nav-mobile {
+	display: none;
+}
+
 header {
 	height: 100vh;
 }

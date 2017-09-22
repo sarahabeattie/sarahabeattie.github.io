@@ -22,7 +22,7 @@ body {
 
 /*MAIN NAVIGATION BAR*/
 
-div#nav-main, div.nav-mobile {
+#nav-main {
 	overflow: hidden;
 	background-color: transparent;
 	position: fixed;
@@ -31,12 +31,12 @@ div#nav-main, div.nav-mobile {
 
 }
 
-div#nav-main ul {
+#nav-main ul {
 	max-width: 1000px;
 	margin: auto;
 }
 
-div#nav-main ul li, div#nav-main ul li a {
+#nav-main ul li, #nav-main ul li a {
 	color: #16023B;
 	font-family: 'Fredericka the Great', cursive;
 	font-size: 16px;
@@ -49,12 +49,12 @@ div#nav-main ul li, div#nav-main ul li a {
 
 }
 
-div#nav-main ul li a.thispage {
+#nav-main ul li a.thispage {
 	text-transform: uppercase;
 	color: #F58025;
 }
 
-div#nav-main ul li.donate {
+#nav-main ul li.donate {
 	background-color: #F58025;
 	border: 1px solid white;
 	border-radius: 2px; 
@@ -62,18 +62,20 @@ div#nav-main ul li.donate {
 	float: right;
 }
 
-div#nav-main ul li.donate a {
+#nav-main ul li.donate a {
 	color: white;
 }
 
-div#nav-main ul li a:hover {
+#nav-main ul li a:hover {
 	text-transform: uppercase;
 	color: #F58025; /*orange*/
 }
 
-div#nav-main ul li.donate a:hover {
+#nav-main ul li.donate a:hover {
 	color: #16023B; /*blue*/
 }
+
+
 
 /*HEADERS*/
 
