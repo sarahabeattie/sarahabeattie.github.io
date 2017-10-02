@@ -1,165 +1,125 @@
-@media(min-width: 280px) {
+/*Styling for SMALLEST VIEWPORTS -- UP TO 767px width -- tablet css kicks in at that size.*/
 
 /*MAIN NAVIGATION BAR*/
+/*ACCORDIAN*/
 
-div#nav-main {
-	display: none;
+.block
+{
+  margin: auto;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+  border: 1px solid white;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid #16023B; /*blue*/
 }
 
-div#nav-mobile {
-	overflow: hidden;
-	background-color: #16023B; /*blue*/
-	position: fixed;
-	top: 0;
-	width: 100%;
-
+.block input[type='checkbox']:checked ~ .info{
+  height: auto;
+  transition: .3s ease-in;
 }
 
-div#nav-main ul {
-	max-width: 250px;
-	margin: auto;
+input[type='checkbox']{
+  width: 100%;
+  display: none;
 }
 
-div#nav-main ul li, div#nav-main ul li a {
-	color: #16023B; /*blue*/
-	font-family: 'Fredericka the Great', cursive;
-	font-size: 16px;
-	text-decoration: none;
-	text-align: center;
-	vertical-align: middle;
-	float: left;
-	width: 150px;
-	margin: 5px auto;
+label{
+  width: 450px;
+  max-width: 100%;
+  cursor: pointer;
 }
 
-div#nav-main ul li a.thispage {
-	text-transform: uppercase;
-	color: #F58025; /*orange*/
+div.block span{
+  display: block;
+  margin: 2px;
+  cursor: pointer;
 }
 
-div#nav-main ul li.donate {
-	background-color: #F58025;
-	border: 1px solid white;
-	border-radius: 2px; 
-	margin: 5px 20px;
-	float: right;
+.info{
+  width: 100%;
+  height: 0px;
+  padding-left: 15px;
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: .3s ease-out;
+} 
+
+::selection{
+  background: #222;
+  color: #16023B;
 }
 
-div#nav-main ul li.donate a {
-	color: white;
+.menu:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  color: #16023B;
+  margin-left: 5px;
 }
 
-div#nav-main ul li a:hover {
-	text-transform: uppercase;
-	color: #F58025; /*orange*/
-}
-
-div#nav-main ul li.donate a:hover {
-	color: #16023B; /*blue*/
-}
-
-/*HEADERS*/
-
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Fredericka the Great', cursive;
-	margin: 20px 0px;
-}
-
-h1 {
-	font-size: 98px;
-	text-align: center;
-	color: #16023B; /*blue*/
-
-}
-
-h2 {
-	font-size: 48px;
-	color: #FFFFFF; /*white*/
-}
-
-h3 {
-	font-size: 32px;
-	color: #16023B; /*blue*/
-}
-
-h4 {
-	font-size: 26px;
-	color: #16023B; /*blue*/
-}
-
-#slider h4 {
-	text-align: center; /*Used in SLIDER to keep text centered.*/
-}
-
-h5 {
-	font-size: 18px;
-	color: #16023B; /*blue*/
-}
-
-h6 {
-	font-size: 14px;
-	color: #16023B; /*blue*/
-}
-
-/*BODY COPY*/
-
-p, li, div.more-info p, div#footer div {
-	font-size: 20px;
+div.menu {
+	margin: 0 40px;
+	color: #16023B;
 	font-family: 'Lato', sans-serif;
+	font-size: 18px;
 }
 
-p {
+div.info {
+	margin-left: 40px;
+}
+
+li#donate {
+	margin-bottom: 10px;
+}
+
+div.info a {
+	color: #16023B;
+}
+
+div.info a:hover {
+	text-decoration: underline;
+}
+
+#primary_nav_wrap ul li.current-menu-item a:after {
+	content: "\2605";
+}
+
+#primary_nav_wrap ul li {
+	line-height: 1.5;
+}
+
+ul.sub-menu li {
+	margin-left: 20px;
+	list-style: disc;
+	font-size: 16px;
+	line-height: 1.75;
+}
+
+#primary_nav_wrap ul li#donate {
+	background-color: #F58025; /*orange*/
+	border: 1px solid #16023B;
+	border-radius: 2px; 
+	margin: 5px 0;
+	padding: 2px;
+	width: 90px;
+}
+
+#primary_nav_wrap ul li#donate a {
 	color: white;
+	text-transform: uppercase;
+	margin: 2px auto;
 }
 
-div.more-info p, div.more-info a, div.more-info li {
+#primary_nav_wrap ul li#donate a:hover {
 	color: #16023B; /*blue*/
 }
 
-div.more-info li, div.content li {
-	list-style: disc;
-	list-style-position: inside;
-}
 
-button, a.expand-link, a.backtotop {
-	font-family: 'Lato', cursive;
-	font-size: 20px;
-	margin-top: 20px;
-}
-
-button {
-	color: white;
-	background-color: #F58025;
-	border: 1px solid white;
-	border-radius: 5px; 
-	text-align: center;
-	text-decoration: none;
-}
-
-button a {
-	text-decoration: none;
-	color: white;
-}
-
-p a, div.more-info li a, div.content li a {
-	text-decoration: underline #F58025; /*orange*/
-}
-
-button a:hover, a.expand-link:hover, a.backtotop:hover  {
-	text-transform: uppercase;
-}
-
-
-
-/*MAIN HEADER*/
+/*HEADER SECTION*/
 
 header {
-	height: 100vh;
-}
-
-header > div, section > div { /*targeting ONLY the very first div inside a section tag.*/
-	max-width: 900px;
-	margin: auto;	
+	height: auto;
 }
 
 header > div {
@@ -168,28 +128,36 @@ header > div {
 }
 
 header, section {
-	padding: 50px;
+	padding: 40px;
 }
 
 a#down {
-	display: block;
-    position: absolute;
-    width: 30px;
-    bottom: 50px;
-    margin: auto;
-    left: 0;
-    right: 0;
+	display: none;
 }
 
 a#down:after {
-	content: " ";
-	display: block;
-	width: 40px;
-	height: 40px;
-	border-right: 8px solid #F58025; /*orange*/
-	border-bottom: 8px solid #F58025; /*orange*/
-	transform: rotate(45deg);
+	display: none;
 }
+
+
+/*HEADING MOBILE SIZING*/
+
+h1 {
+	font-size: 28px;
+}
+
+h2, h3 {
+	font-size: 26px;
+}
+
+h4 {
+	font-size: 22px;
+}
+
+h5, h6 {
+	font-size: 18px;
+}
+
 
 /*SLIDER*/
 
@@ -199,7 +167,7 @@ div.slider {
 }
 
 div.slider img {
-	max-width: 900px;
+	max-width: 75vw;
 	margin: 10px auto;
 }
 
@@ -254,4 +222,3 @@ img {
 .more-info img {
 	margin: auto;
 }
-

@@ -1,0 +1,79 @@
+/*DEFAULT CSS STARTER*/
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*TESTING FONTS:*/
+/*
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Six Caps', sans-serif;
+font-family: 'Ribeye Marrow', cursive;
+font-family: 'Carrois Gothic SC', sans-serif;
+font-family: 'Cormorant SC', serif;
+*/
+
+h1, h2 {
+	font-family: 'Cormorant SC', serif;
+}
+
+h3, h4, h5, h6, body, div, p {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul.description, ul.description li {
+
+	margin-top: 5px;
+}
+
+ul.description li {
+	list-style: disc;
+	list-style-position: inside;
+	margin-left: 20px;
+}
+
+.two-column {
+
+}
+
+.three-column {
+
+}
+
+.title {
+
+}
+
+.company, .school {
+	color: #7a7a7a;
+}
+
+.date {
+	
+}
+
+.location {
+	
+}
+
+.geo {
+	background-image: url(../images/social-icons.png) !important;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: cover !important;
+}
+
+.description {
+	
+}
+
+.value {
+
+}

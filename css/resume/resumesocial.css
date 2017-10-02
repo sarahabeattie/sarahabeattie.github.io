@@ -1,6 +1,7 @@
 a { 
    text-decoration: none;
 }
+
 ul {
    list-style: none;
    margin: 0;
@@ -8,44 +9,56 @@ ul {
 }
 
 #sticky-social .entypo-facebook {
-   background-image: url(../images/social-icons.png) !important;
+   background-image: url(../../images/social-icons.png) !important;
    background-repeat: no-repeat;
    background-position: 0 0;
    background-size: cover !important;
 }
 
 #sticky-social .entypo-twitter {
-   background-image: url(../images/social-icons.png) !important;
+   background-image: url(../../images/social-icons.png) !important;
    background-repeat: no-repeat;
    background-position: 0 -36px !important;
    background-size: cover !important;
 }
 
 #sticky-social .entypo-linkedin {
-   background-image: url(../images/social-icons.png) !important;
+   background-image: url(../../images/social-icons.png) !important;
    background-repeat: no-repeat;
    background-position: 0 -71px !important;
    background-size: cover !important;
 }
 
 #sticky-social .entypo-instagram {
-   background-image: url(../images/social-icons.png) !important;
+   background-image: url(../../images/social-icons.png) !important;
    background-repeat: no-repeat;
    background-position: 0 -106px !important;
    background-size: cover !important;
 }
 
 #sticky-social .entypo-flickr {
-   background-image: url(../images/social-icons.png) !important;
+   background-image: url(../../images/social-icons.png) !important;
    background-repeat: no-repeat;
    background-position: 0 -141px !important;
    background-size: cover !important;
 }
 
-/*Adding aside targeting to get element to expand on top of slider*/
+#sticky-social .entypo-github {
+   background-image: url(../../images/github.png) !important;
+   background-repeat: no-repeat;
+   background-position: 0 0 !important;
+   background-size: cover !important;
+}
 
-/*MOBILE STYLING*/
-/*STYLE CHANGES BELOW BEGINNING AT 768px VIEWPORT WIDTH*/
+
+#sticky-social .entypo-backtotop {
+   background-image: url(../../images/uparrow2.png) !important;
+   background-repeat: no-repeat;
+   background-position: 0 0 !important;
+   background-size: cover !important;
+}
+
+/*Adding aside targeting to get element to expand on top of slider*/
 aside {
    z-index: 99 !important;
 }
@@ -58,22 +71,22 @@ aside {
 #sticky-social {
    left: 0;
    position: fixed;
-   top: 40px; /*CHANGED FROM default: 150*/
+   top: 150px;
 }
 #sticky-social a {
    background: #333;
    color: #fff;
    display: block;
-   height: 35px; 
-   font: 14px; 
-   font-family: "Lato", sans-serif;
-   line-height: 35px; 
+   height: 35px;
+   font: 14px;
+   font-family: 'Source Sans Pro', sans-serif;
+   line-height: 35px;
    position: relative;
    text-align: center;
-   width: 35px; 
+   width: 35px;
 }
 #sticky-social a span {
-   line-height: 35px; 
+   line-height: 35px;
    left: -120px;
    position: absolute;
    text-align:center;
@@ -114,12 +127,15 @@ aside {
 #sticky-social a[class*="tumblr"]:hover,
 #sticky-social a[class*="tumblr"] span { background: #32506d; }
 
-
-/*TABLET AND ABOVE SIZING*/
-@media(min-width: 768px) {
-
-#sticky-social {
-   top: 150px; /*reverted to default*/
+#sticky-social a[class*="github"],
+#sticky-social a[class*="github"]:hover,
+#sticky-social a[class*="github"] span { 
+   background: #cacaca; 
 }
 
+#sticky-social a[class*="backtotop"],
+#sticky-social a[class*="backtotop"]:hover,
+#sticky-social a[class*="backtotop"] span { 
+   background: #ffffff; 
+   color: #16023B;
 }

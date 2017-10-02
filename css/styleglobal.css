@@ -20,63 +20,6 @@ body {
   background-size: cover;
 }
 
-/*MAIN NAVIGATION BAR*/
-
-#nav-main {
-	overflow: hidden;
-	background-color: transparent;
-	position: fixed;
-	top: 0;
-	width: 100%;
-
-}
-
-#nav-main ul {
-	max-width: 1000px;
-	margin: auto;
-}
-
-#nav-main ul li, #nav-main ul li a {
-	color: #16023B;
-	font-family: 'Fredericka the Great', cursive;
-	font-size: 16px;
-	text-decoration: none;
-	text-align: center;
-	vertical-align: middle;
-	float: left;
-	width: 150px;
-	margin: 5px auto;
-
-}
-
-#nav-main ul li a.thispage {
-	text-transform: uppercase;
-	color: #F58025;
-}
-
-#nav-main ul li.donate {
-	background-color: #F58025;
-	border: 1px solid white;
-	border-radius: 2px; 
-	margin: 5px 20px;
-	float: right;
-}
-
-#nav-main ul li.donate a {
-	color: white;
-}
-
-#nav-main ul li a:hover {
-	text-transform: uppercase;
-	color: #F58025; /*orange*/
-}
-
-#nav-main ul li.donate a:hover {
-	color: #16023B; /*blue*/
-}
-
-
-
 /*HEADERS*/
 
 h1, h2, h3, h4, h5, h6 {
@@ -130,46 +73,7 @@ p, li, div.more-info p, div#footer div {
 p {
 	color: white;
 }
-
-div.more-info p, div.more-info a, div.more-info li {
-	color: #16023B; /*blue*/
-}
-
-div.more-info li, div.content li {
-	list-style: disc;
-	list-style-position: inside;
-}
-
-button, a.expand-link, a.backtotop {
-	font-family: 'Lato', cursive;
-	font-size: 20px;
-	margin-top: 20px;
-}
-
-button {
-	color: white;
-	background-color: #F58025;
-	border: 1px solid white;
-	border-radius: 5px; 
-	text-align: center;
-	text-decoration: none;
-}
-
-button a {
-	text-decoration: none;
-	color: white;
-}
-
-p a, div.more-info li a, div.content li a {
-	text-decoration: underline #F58025; /*orange*/
-}
-
-button a:hover, a.expand-link:hover, a.backtotop:hover  {
-	text-transform: uppercase;
-}
-
-
-
+	
 /*MAIN HEADER*/
 
 header {
@@ -188,26 +92,6 @@ header > div {
 
 header, section {
 	padding: 50px;
-}
-
-a#down {
-	display: block;
-    position: absolute;
-    width: 30px;
-    bottom: 50px;
-    margin: auto;
-    left: 0;
-    right: 0;
-}
-
-a#down:after {
-	content: " ";
-	display: block;
-	width: 40px;
-	height: 40px;
-	border-right: 8px solid #F58025; /*orange*/
-	border-bottom: 8px solid #F58025; /*orange*/
-	transform: rotate(45deg);
 }
 
 /*SLIDER*/

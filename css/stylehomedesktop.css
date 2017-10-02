@@ -1,0 +1,306 @@
+@media(min-width: 768px) {
+
+/*MAIN NAVIGATION BAR*/
+
+
+
+#primary_nav_wrap
+{
+	margin: auto;
+	margin-top: 5px;
+	position: fixed;
+	background-color: white;
+	z-index: 1;
+	border: 1px solid white;
+	top: 0;
+	width: 100%;
+	border-top: 1px solid #F58025; /*orange*/
+	border-bottom: 1px solid #F58025; /*orange*/
+}
+
+#primary_nav_wrap ul
+{
+	max-width: 1000px;
+	list-style: none;
+	margin: 2px auto;
+	padding:0
+}
+
+#primary_nav_wrap ul a {
+	display: block;
+	color: #16023B; /*blue*/
+	text-decoration: none;
+	font-size: 16px;
+	padding: 0 15px;
+	margin: 5px auto;
+	font-family:'Fredericka the Great', cursive;
+}
+
+#primary_nav_wrap ul li {
+	position: relative;
+	float: left;
+	text-align: center;
+	margin: auto;
+	padding: 0
+}
+
+#primary_nav_wrap ul li#donate {
+	background-color: #F58025; /*orange*/
+	border: 1px solid white;
+	border-radius: 2px; 
+	margin: 3px 20px 5px ;
+	float: right;
+}
+
+#primary_nav_wrap ul li#donate a {
+	color: white;
+	text-transform: uppercase;
+	margin: 2px auto;
+}
+
+#primary_nav_wrap ul li#donate a:hover {
+	color: #16023B; /*blue*/
+}
+
+#primary_nav_wrap ul li.current-menu-item a {
+	color: #F58025;
+	text-transform: uppercase;
+}
+
+#primary_nav_wrap ul li a:hover {
+	text-transform: uppercase;
+	color: #F58025; /*orange*/
+}
+
+#primary_nav_wrap ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: rgba(255,255,255,0.7);
+	border-bottom: 1px solid white;
+	padding: 0
+}
+
+#primary_nav_wrap ul ul li {
+	float: none;
+	width: 200px;
+	text-align: left;
+}
+
+#primary_nav_wrap ul ul a {
+	line-height:140%;
+	padding:8px 15px
+}
+
+#primary_nav_wrap ul ul ul {
+	top: 0;
+	left: 100%
+}
+
+#primary_nav_wrap ul li:hover > ul {
+	display:block
+}
+
+
+/*HEADERS*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Fredericka the Great', cursive;
+	margin: 20px 0px;
+}
+
+h1 {
+	font-size: 98px;
+	text-align: center;
+	color: #16023B; /*blue*/
+
+}
+
+h2 {
+	font-size: 48px;
+	color: #FFFFFF; /*white*/
+}
+
+h3 {
+	font-size: 32px;
+	color: #16023B; /*blue*/
+}
+
+h4 {
+	font-size: 26px;
+	color: #16023B; /*blue*/
+}
+
+#slider h4 {
+	text-align: center; /*Used in SLIDER to keep text centered.*/
+}
+
+h5 {
+	font-size: 18px;
+	color: #16023B; /*blue*/
+}
+
+h6 {
+	font-size: 14px;
+	color: #16023B; /*blue*/
+}
+
+/*BODY COPY*/
+
+p, li, div.more-info p, div#footer div {
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+}
+
+p {
+	color: white;
+}
+
+div.more-info p, div.more-info a, div.more-info li {
+	color: #16023B; /*blue*/
+}
+
+div.more-info li, div.content li {
+	list-style: disc;
+	list-style-position: inside;
+}
+
+button, a.expand-link, a.backtotop {
+	font-family: 'Lato', cursive;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+button {
+	color: white;
+	background-color: #F58025;
+	border: 1px solid white;
+	border-radius: 5px; 
+	text-align: center;
+	text-decoration: none;
+}
+
+button a {
+	text-decoration: none;
+	color: white;
+}
+
+p a, div.more-info li a, div.content li a {
+	text-decoration: underline #F58025; /*orange*/
+}
+
+button a:hover, a.expand-link:hover, a.backtotop:hover  {
+	text-transform: uppercase;
+}
+
+
+
+/*MAIN HEADER*/
+
+header {
+	height: 100vh;
+}
+
+header > div:first-child {
+	margin-top: 25vh;
+}
+
+header > div, section > div { /*targeting ONLY the very first div inside a section tag.*/
+	max-width: 900px;
+	margin: auto;	
+}
+
+header > div {
+	background-color: rgba(255,255,255,0.7);
+	border: 1px solid white;
+}
+
+header, section {
+	padding: 50px;
+}
+
+a#down {
+	display: block;
+    position: absolute;
+    width: 30px;
+    bottom: 50px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+a#down:after {
+	content: " ";
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-right: 8px solid #F58025; /*orange*/
+	border-bottom: 8px solid #F58025; /*orange*/
+	transform: rotate(45deg);
+}
+
+/*SLIDER*/
+
+div.slider {
+	background-color: rgba(255,255,255,0.7); /*translucent white*/
+	border: 1px solid white;
+}
+
+div.slider img {
+	max-width: 900px;
+	margin: 10px auto;
+}
+
+div.slider p {
+	text-align: center;
+	margin: 0px 20px;
+}
+
+/*SECTION-SPECIFIC*/
+
+section:nth-child(odd) {
+	background-color: rgba(255,255,255,0.7);
+	border-top: 5px solid #F58025;
+	border-bottom: 5px solid #F58025;
+}
+
+section:nth-child(odd) h2, 
+section:nth-child(odd) p, 
+section:nth-child(odd) li, 
+section:nth-child(odd) li a,
+section:nth-child(odd) a
+/*section:nth-child(odd) a.expand-link, 
+section:nth-child(odd) a.backtotop*/ {
+	color: #16023B; /*blue*/
+}
+
+section:nth-child(even) {
+	background-color: #16023B; /*blue*/
+}
+
+section:nth-child(even) h2, 
+section:nth-child(even) p, 
+section:nth-child(even) li, 
+section:nth-child(even) li a,
+section:nth-child(even) a
+/*section:nth-child(even) a.expand-link, 
+section:nth-child(even) a.backtotop*/ {
+	color: white;
+}
+
+/*ELEMENTS*/
+
+img {
+	max-width: 100%; /*Means image will only get as wide as it is naturally, NOT the width of the screen.*/
+	height: auto; /*Means image will resize proportionally*/
+}
+
+.more-info {
+	display: none;
+}
+
+.more-info img {
+	margin: auto;
+}
+}

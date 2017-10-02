@@ -21,7 +21,10 @@
     <link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/styleglobal.css">
     <link rel="stylesheet" type="text/css" href="css/stylehome.css">
-    <link rel="stylesheet" href="css/menustyle.css">
+    <link rel="stylesheet" type="text/css" href="css/stylehomemobile.css">
+<!--     <link rel="stylesheet" type="text/css" href="css/stylehometablet.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/stylehomedesktop.css">
+
     <!-- <link rel="stylesheet" href="css/mobile.css"> --> <!-- 280px - 640px -->
     <!-- INSERT TABLET PORTRAIT CSS --> <!-- 640px - 900px -->
     <!-- INSERT TABLET PORTRAIT CSS --> <!-- 900px - 1200px -->
@@ -32,32 +35,38 @@
 
 	<body>
     <a name="top" id="top"></a>
-    <div id="primary_nav_wrap">
-      <ul>
-        <li class="current-menu-item"><a href="top">Home</a></li>
-        <li><a href="#">Who We Are</a>
-          <ul>
-            <li class="dir"><a href="#">Our Team</a></li>
-            <li class="dir"><a href="#">Our Mission</a></li>
-            <li class="dir"><a href="#">Our Girls</a></li>
-            <li class="dir"><a href="#">Gallery</a></li>
-            <li class="dir"><a href="#">Blog</a></li>
-          </ul>
-        <li><a href="#">Get Involved</a>
-          <ul>
-            <li><a href="#">Volunteer</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Job Postings</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Programs</a>
-          <ul>
-            <li class="dir"><a href="#">Apply Now!</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Contact Us</a></li>
-        <li id="donate"><a href="#">Donate</a></li>
-      </ul>
+    <div class="block">
+      <input type="checkbox" name="menu" id="menu" />   
+        <label for="menu"><span><div class="menu">MENU</div></span></label>
+        <div class="info">  
+          <div id="primary_nav_wrap">
+            <ul>
+              <li class="current-menu-item"><a href="top">Home</a></li>
+              <li><a href="#">Who We Are</a>
+                <ul class="sub-menu">
+                  <li class="dir"><a href="#">Our Team</a></li>
+                  <li class="dir"><a href="#">Our Mission</a></li>
+                  <li class="dir"><a href="#">Our Girls</a></li>
+                  <li class="dir"><a href="#">Gallery</a></li>
+                  <li class="dir"><a href="#">Blog</a></li>
+                </ul>
+              <li><a href="#">Get Involved</a>
+                <ul class="sub-menu">
+                  <li><a href="#">Volunteer</a></li>
+                  <li><a href="#">Events</a></li>
+                  <li><a href="#">Job Postings</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Programs</a>
+                <ul class="sub-menu">
+                  <li class="dir"><a href="#">Apply Now!</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Contact Us</a></li>
+              <li id="donate"><a href="#">Donate</a></li>
+            </ul>
+          </div>
+        </div>
     </div>
     
 <!-- Social sidebar -->
@@ -94,24 +103,21 @@
           </div>
           <div>
             <a href="#apply">
-              <h4>Are you a girl in the SF Bay Area?
+              <h4>Are you a girl in the SF Bay Area?</h4>
                 <img src="images/stronggirls.jpg">
-                <br>Submit your application for our Fall 2017 Programs.
                 <br>
-                <button>Apply now!</button>
-              </h4>
-              
+                <p>Submit your application for our Fall 2017 Programs.</p>
+                <h4><button>Apply now!</button></h4>
+              </h4> 
             </a>
           </div>
           <div>
             <a href="#volunteer">
-              <h4>Looking for great volunteer opportunities?
+              <h4>Looking for great volunteer opportunities?</h4>
                 <img src="images/spring2015_graduates_dennischan_header.jpg">
-                <br>You're in the right place! Read on to see how you can get involved.
                 <br>
-                <button>Volunteer!</button>
-              </h4>
-              
+                <p>You're in the right place! Read on to see how you can get involved.</p>
+                <h4><button>Volunteer!</button></h4>
             </a>
           </div>
           <div>

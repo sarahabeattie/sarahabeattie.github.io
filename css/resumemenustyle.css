@@ -1,0 +1,75 @@
+@media(min-width: 768px) {
+
+.menu {
+	content: none;
+}
+
+#primary_nav_wrap
+{
+	margin: auto;
+	margin-top: 5px;
+	position: fixed;
+	background-color: white;
+	z-index: 1;
+	border: 1px solid white;
+	top: 0;
+	width: 100%;
+	border-top: 1px solid #16023B; /*blue*/
+	border-bottom: 1px solid #16023B; /*blue*/
+}
+
+#primary_nav_wrap ul
+{
+	max-width: 1000px;
+	list-style: none;
+	margin: 2px auto;
+	padding:0
+}
+
+#primary_nav_wrap ul a {
+	display: block;
+	color: #16023B; /*blue*/
+	text-decoration: none;
+	font-size: 16px;
+	padding: 0 15px;
+	margin: 5px auto;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#primary_nav_wrap ul li {
+	position: relative;
+	float: left;
+	text-align: center;
+	margin: auto;
+	padding: 0
+}
+
+#primary_nav_wrap ul li.current-menu-item a {
+	color: #F58025; /*orange*/
+	text-transform: uppercase;
+}
+
+#primary_nav_wrap ul li a:hover {
+	text-transform: uppercase;
+	color: #F58025; /*orange*/
+}
+
+#primary_nav_wrap ul li#contact {
+	background-color: #16023B; /*blue*/
+	border: 1px solid white;
+	border-radius: 2px; 
+	margin: 3px 20px 5px ;
+	float: right;
+}
+
+#primary_nav_wrap ul li#contact a {
+	color: white;
+	text-transform: uppercase;
+	margin: 2px auto;
+}
+
+#primary_nav_wrap ul li#contact a:hover {
+	color: #16023B; /*blue*/ /*NOTE: CHANGE COLOR*/;
+}
+
+}

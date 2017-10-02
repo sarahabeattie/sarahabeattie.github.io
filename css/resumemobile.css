@@ -1,0 +1,155 @@
+@media(min-width: 280px) {
+
+/*SPACING*/
+
+header div, section > div {
+	margin: 0 40px;
+}
+
+
+
+/*TESTING FONTS:*/
+/*
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Six Caps', sans-serif;
+font-family: 'Ribeye Marrow', cursive;
+font-family: 'Carrois Gothic SC', sans-serif;
+font-family: 'Cormorant SC', serif;
+*/
+
+h1, h2 {
+	font-size: 48px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+h3 {
+	margin-top: 10px;
+}
+
+h4, h5, h6, p {
+	margin-top: 5px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 26px;
+}
+
+h4 {
+	font-size: 22px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 14px;
+	font-style: italic;
+}
+
+body, div, span, p {
+	font-size: 14px;
+}
+
+.phone, .mail, .home, .date, .location {
+	font-size: 14px;
+}
+
+.date, .location {
+	width: 45%;
+	font-weight: bold;
+}
+
+.date {
+	float: left;
+}
+
+.location {
+	float: right;
+	text-align: right;
+}
+
+.two-column p {
+
+}
+
+.three-column p {
+	text-align: center;
+
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+/*ACCORDIAN*/
+
+.block{
+  padding-top: 5px;
+}
+
+.block input[type='radio']:checked ~ .info{
+  height: auto;
+  transition: .3s ease-in;
+}
+
+input[type='radio']{
+  width: 100%;
+  display: none;
+}
+
+label{
+  width: 450px;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+div.block span{
+  font-weight: bold;
+  display: block;
+  padding: 10px 12px 12px 15px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.info{
+  background: #fff;
+  color: #222;
+  width: 100%;
+  height: 0px;
+  line-height: 2;
+  padding-left: 15px;
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: .3s ease-out;
+} 
+
+::selection{
+  background: #222;
+  color: #fff;
+}
+
+.title:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
