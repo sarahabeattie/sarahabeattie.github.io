@@ -1,5 +1,14 @@
 /*Styling for SMALLEST VIEWPORTS -- UP TO 767px width -- tablet css kicks in at that size.*/
 
+body { 
+  background: url(../images/Spring2013_graduates_bw.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
 /*MAIN NAVIGATION BAR*/
 /*ACCORDIAN*/
 
@@ -59,7 +68,7 @@ div.block span{
 }
 
 div.menu {
-	margin: 0 40px;
+	margin: 5px 40px;
 	color: #16023B;
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
