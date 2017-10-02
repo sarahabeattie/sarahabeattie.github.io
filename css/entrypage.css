@@ -95,11 +95,20 @@ div#footer div {
 	color: white;
 	position: relative;
 	text-align: center;
-	height: 50px;   /* Height of the footer */
+	height: auto;   /* Height of the footer */
 }	
+
+div#footer a {
+	color: white;
+}
 
 div#footer a:hover{
 	font-weight: bold;
+	text-decoration: underline;
+}
+
+#footer {
+	width: 100%;
 }
 
 }

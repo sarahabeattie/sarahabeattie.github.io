@@ -58,7 +58,7 @@ aside {
 #sticky-social {
    left: 0;
    position: fixed;
-   top: 40px; /*CHANGED FROM default: 150*/
+   top: 50px; /*CHANGED FROM default: 150*/
 }
 #sticky-social a {
    background: #333;

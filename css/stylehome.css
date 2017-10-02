@@ -9,19 +9,7 @@ body {
   background-size: cover;
 }
 
-/*MAIN HEADER*/
-
-div#footer div {
-	margin: auto;
-	color: white;
-	position: relative;
-	text-align: left;
-	height: 50px;   /* Height of the footer */
-}	
-
-div#footer a:hover{
-	font-weight: bold;
-}
+/*BODY COPY*/
 
 div.more-info p, div.more-info a, div.more-info li {
 	color: #16023B; /*blue*/
@@ -58,8 +46,4 @@ p a, div.more-info li a, div.content li a {
 
 button a:hover, a.expand-link:hover, a.backtotop:hover  {
 	text-transform: uppercase;
-}
-
-#footer {;
-	width: 100%;
 }

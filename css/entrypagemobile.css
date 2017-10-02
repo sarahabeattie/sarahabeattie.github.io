@@ -35,8 +35,8 @@ ul li:last-child {
 
 div#footer div {
 	font-size: 11px;
-	text-align: center;
-	height: 50px;   /* Height of the footer */
+	height: auto;
+	padding-bottom: 10px;
 }
 
 }

@@ -122,15 +122,6 @@ header {
 	height: auto;
 }
 
-header > div {
-	background-color: rgba(255,255,255,0.7);
-	border: 1px solid white;
-}
-
-header, section {
-	padding: 40px;
-}
-
 a#down {
 	display: none;
 }
@@ -161,64 +152,7 @@ h5, h6 {
 
 /*SLIDER*/
 
-div.slider {
-	background-color: rgba(255,255,255,0.7); /*translucent white*/
-	border: 1px solid white;
-}
-
 div.slider img {
 	max-width: 75vw;
 	margin: 10px auto;
-}
-
-div.slider p {
-	text-align: center;
-	margin: 0px 20px;
-}
-
-/*SECTION-SPECIFIC*/
-
-section:nth-child(odd) {
-	background-color: rgba(255,255,255,0.7);
-	border-top: 5px solid #F58025;
-	border-bottom: 5px solid #F58025;
-}
-
-section:nth-child(odd) h2, 
-section:nth-child(odd) p, 
-section:nth-child(odd) li, 
-section:nth-child(odd) li a,
-section:nth-child(odd) a
-/*section:nth-child(odd) a.expand-link, 
-section:nth-child(odd) a.backtotop*/ {
-	color: #16023B; /*blue*/
-}
-
-section:nth-child(even) {
-	background-color: #16023B; /*blue*/
-}
-
-section:nth-child(even) h2, 
-section:nth-child(even) p, 
-section:nth-child(even) li, 
-section:nth-child(even) li a,
-section:nth-child(even) a
-/*section:nth-child(even) a.expand-link, 
-section:nth-child(even) a.backtotop*/ {
-	color: white;
-}
-
-/*ELEMENTS*/
-
-img {
-	max-width: 100%; /*Means image will only get as wide as it is naturally, NOT the width of the screen.*/
-	height: auto; /*Means image will resize proportionally*/
-}
-
-.more-info {
-	display: none;
-}
-
-.more-info img {
-	margin: auto;
 }

@@ -1,0 +1,212 @@
+@media(min-width: 768px) {
+
+/*MAIN NAVIGATION BAR*/
+
+.block
+{
+  margin: none;
+  background-color: transparent;
+  z-index: 1;
+  border: none;
+  top: 0;
+  width: 100%;
+  border-bottom: none; /*blue*/
+}
+
+label div.menu {
+	display: none;
+}
+
+div.info {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+#primary_nav_wrap
+{
+	margin: auto;
+	margin-top: 5px;
+	position: fixed;
+	background-color: white;
+	z-index: 1;
+	border: 1px solid white;
+	top: 0;
+	width: 100%;
+	border-top: 1px solid #F58025; /*orange*/
+	border-bottom: 1px solid #F58025; /*orange*/
+}
+
+#primary_nav_wrap ul
+{
+	max-width: 900px;
+	list-style: none;
+	margin: 2px auto;
+	padding: 0;
+}
+
+#primary_nav_wrap ul a {
+	display: block;
+	color: #16023B; /*blue*/
+	text-decoration: none;
+	font-size: 16px;
+	padding: 0 15px;
+	margin: 5px auto;
+	font-family:'Lato', sans-serif;
+}
+
+#primary_nav_wrap ul li {
+	position: relative;
+	float: left;
+	text-align: center;
+	margin: auto;
+	padding: 0
+}
+
+#primary_nav_wrap ul li#donate {
+	background-color: #F58025; /*orange*/
+	border: 1px solid white;
+	border-radius: 2px; 
+	margin: 3px 20px 5px ;
+	float: right;
+	width: auto;
+}
+
+#primary_nav_wrap ul li#donate a {
+	color: white;
+	text-transform: uppercase;
+	margin: 2px auto;
+}
+
+#primary_nav_wrap ul li#donate a:hover {
+	color: #16023B; /*blue*/
+}
+
+#primary_nav_wrap ul li.current-menu-item a {
+	color: #F58025;
+	text-transform: uppercase;
+}
+
+#primary_nav_wrap ul li a:hover {
+	text-transform: uppercase;
+	color: #F58025; /*orange*/
+}
+
+#primary_nav_wrap ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: white;
+	border-bottom: 1px solid white;
+	padding: 0
+}
+
+#primary_nav_wrap ul ul li {
+	float: none;
+	width: 200px;
+	text-align: left;
+}
+
+#primary_nav_wrap ul ul a {
+	line-height:140%;
+	padding:8px 15px
+}
+
+#primary_nav_wrap ul ul ul {
+	top: 0;
+	left: 100%
+}
+
+#primary_nav_wrap ul li:hover > ul {
+	display:block
+}
+
+ul.sub-menu li {
+	list-style: none;
+}
+
+
+/*HEADERS*/
+
+h1 {
+	font-size: 64px;
+}
+
+h2 {
+	font-size: 48px;
+}
+
+h3 {
+	font-size: 32px;
+}
+
+h4 {
+	font-size: 26px;
+}
+
+h5 {
+	font-size: 18px;
+	color: #16023B; /*blue*/
+}
+
+h6 {
+	font-size: 14px;
+	color: #16023B; /*blue*/
+}
+
+/*MAIN HEADER*/
+
+header {
+	height: 100vh;
+}
+
+header > div:first-child {
+	margin-top: 25vh;
+}
+
+header > div, section > div { /*targeting ONLY the very first div inside a section tag.*/
+	max-width: 900px;
+	margin: auto;	
+}
+
+a#down {
+	display: block;
+    position: absolute;
+    width: 30px;
+    bottom: 50px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+a#down:after {
+	content: " ";
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-right: 8px solid #F58025; /*orange*/
+	border-bottom: 8px solid #F58025; /*orange*/
+	transform: rotate(45deg);
+}
+
+/*SLIDER*/
+
+div.slider img {
+	max-width: 80vw; /*previously 900px*/
+}
+
+/*ELEMENTS*/
+
+img {
+	max-width: 100%; /*Means image will only get as wide as it is naturally, NOT the width of the screen.*/
+	height: auto; /*Means image will resize proportionally*/
+}
+
+.more-info {
+	display: none;
+}
+
+.more-info img {
+	margin: auto;
+}
+}

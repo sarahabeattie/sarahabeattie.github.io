@@ -37,7 +37,8 @@ ul li a:hover {
 div#footer div {
 	font-size: 18px;
 	text-align: center;
-	height: 100px;   /* Height of the footer */
+	height: auto;
+	padding-bottom: 15px;
 }
 
 }

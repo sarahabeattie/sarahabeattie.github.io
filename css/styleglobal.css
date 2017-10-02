@@ -143,7 +143,7 @@ section:nth-child(even) a.backtotop*/ {
 	color: white;
 }
 
-/*ELEMENTS*/
+/*ELEMENTS + FEATHERLIGHT*/
 
 img {
 	max-width: 100%; /*Means image will only get as wide as it is naturally, NOT the width of the screen.*/
@@ -158,3 +158,19 @@ img {
 	margin: auto;
 }
 
+div#footer div {
+	margin: auto;
+	color: white;
+	position: relative;
+	text-align: left;
+	height: auto;   /* Height of the footer */
+}	
+
+div#footer a:hover{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#footer {
+	width: 100%;
+}
