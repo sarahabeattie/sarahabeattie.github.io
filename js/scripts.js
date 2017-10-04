@@ -40,7 +40,20 @@ $(document).ready(function(){
         }
       });
 
+console.log("Hiding menu");
 
+ $('.block .menu').click( function(event){
+        event.stopPropagation();
+        $('#primary_nav_wrap').toggle();
+    });
+
+ $(document).click(function() {
+
+  if( this.id = '#primary_nav_wrap') {
+    $("#primary_nav_wrap").hide();
+  }
+
+});
 
 });
 
@@ -71,10 +84,25 @@ $(window).load(function() {
         $bg
           .removeClass()
           .addClass('bgwidth');
-    }
+    };
           
-  }
+  };
                           
   theWindow.resize(resizeBg).trigger("resize");
 
 });
+
+// Collapse menu by clicking anywhere
+
+// $(window).click(function() {
+//   if ($('#menu input:checkbox').is('checked')) {
+//         $('#menu input:checkbox').removeAttr('checked');
+//       };
+// });
+
+
+  
+
+
+  
+

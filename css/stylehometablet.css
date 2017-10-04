@@ -1,5 +1,10 @@
 @media(min-width: 768px) {
 
+body { 
+  background-attachment: fixed;
+
+}
+
 /*MAIN NAVIGATION BAR*/
 
 .block
@@ -13,7 +18,7 @@
   border-bottom: none; /*blue*/
 }
 
-label div.menu {
+div.menu {
 	display: none;
 }
 
@@ -34,6 +39,7 @@ div.info {
 	width: 100%;
 	border-top: 1px solid #F58025; /*orange*/
 	border-bottom: 1px solid #F58025; /*orange*/
+	display: block;
 }
 
 #primary_nav_wrap ul
@@ -63,22 +69,10 @@ div.info {
 }
 
 #primary_nav_wrap ul li#donate {
-	background-color: #F58025; /*orange*/
 	border: 1px solid white;
-	border-radius: 2px; 
 	margin: 3px 20px 5px ;
 	float: right;
 	width: auto;
-}
-
-#primary_nav_wrap ul li#donate a {
-	color: white;
-	text-transform: uppercase;
-	margin: 2px auto;
-}
-
-#primary_nav_wrap ul li#donate a:hover {
-	color: #16023B; /*blue*/
 }
 
 #primary_nav_wrap ul li.current-menu-item a {

@@ -1,0 +1,40 @@
+/*BACKGROUND IMAGE*/
+
+/*BODY COPY*/
+
+div.more-info p, div.more-info a, div.more-info li {
+	color: #16023B; /*blue*/
+}
+
+div.more-info li, div.content li {
+	list-style: disc;
+	list-style-position: inside;
+}
+
+button, a.expand-link, a.backtotop {
+	font-family: 'Lato', cursive;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+button {
+	color: white;
+	background-color: #F58025;
+	border: 1px solid white;
+	border-radius: 5px; 
+	text-align: center;
+	text-decoration: none;
+}
+
+button a {
+	text-decoration: none;
+	color: white;
+}
+
+p a, div.more-info li a, div.content li a {
+	text-decoration: underline #F58025; /*orange*/
+}
+
+button a:hover, a.expand-link:hover, a.backtotop:hover  {
+	text-transform: uppercase;
+}

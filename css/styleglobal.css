@@ -10,16 +10,6 @@
   clear: both;
 }
 
-/*BACKGROUND IMAGE*/
-
-body { 
-  background: url(../images/Spring2013_graduates_bw.jpg) no-repeat top center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 /*HEADERS*/
 
 h1, h2, h3, h4, h5, h6 {
@@ -76,9 +66,9 @@ p {
 	
 /*MAIN HEADER*/
 
-header {
+/*header {
 	height: 100vh;
-}
+}*/
 
 header > div, section > div { /*targeting ONLY the very first div inside a section tag.*/
 	max-width: 900px;

@@ -1,13 +1,4 @@
-/*Styling for SMALLEST VIEWPORTS -- UP TO 767px width -- tablet css kicks in at that size.*/
-
-body { 
-  background: url(../images/Spring2013_graduates_bw.jpg) no-repeat top center scroll; /*scroll replaced fixed*/
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-}
+/*SMALLEST VIEWPORTS -- UP TO 567px*/
 
 /*MAIN NAVIGATION BAR*/
 /*ACCORDIAN*/
@@ -22,6 +13,12 @@ body {
   top: 0;
   width: 100%;
   border-bottom: 1px solid #16023B; /*blue*/
+}
+
+label{
+  width: 450px;
+  max-width: 100%;
+  cursor: pointer;
 }
 
 div.block span{
@@ -102,11 +99,41 @@ ul.sub-menu li {
 	color: #16023B; /*blue*/
 }
 
-
-/*MAIN HEADER*/
+/*HEADER SECTION*/
 
 header {
 	height: auto;
+	max-width: 400px;
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-right: 35px;
+	padding-bottom: 10px;
+	padding-left: 35px;
+}
+
+header > div {
+	height: auto;
+	display: table;	/*GOES ON PARENT ELEMENT*/
+	margin: 0 auto;
+}
+
+p.two-column {
+	text-align: center;
+	background: #16023B;
+	border: 4px solid white;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+	display: table-cell; /*GOES ON CHILD ELEMENT TO BE DISPLAYED*/
+	vertical-align: middle; /*GOES ON CHILD ELEMENT TO BE DISPLAYED*/
+	margin: auto;
+	padding: 10px;
+}
+
+p.two-column a {
+	color: white;
+}
+
+p.two-column a:hover {
+	background-color: #F58025;
 }
 
 a#down {
@@ -117,8 +144,11 @@ a#down:after {
 	display: none;
 }
 
-
 /*HEADING MOBILE SIZING*/
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 5px 0px;
+}
 
 h1 {
 	font-size: 28px;
@@ -137,9 +167,28 @@ h5, h6 {
 }
 
 
-/*SLIDER*/
+/*SECTION 1: Photo Gallery*/
 
-div.slider img {
-	max-width: 60vw;
-	margin: 10px auto;
+section.gallery {
+	display: table;	/*GOES ON PARENT ELEMENT*/
+	padding: 0;
+	width: 100%;
+}
+
+div.photogallery  {
+	display: table-cell; /*GOES ON CHILD ELEMENT TO BE DISPLAYED*/
+	vertical-align: middle; /*GOES ON CHILD ELEMENT TO BE DISPLAYED*/
+	margin: auto;
+}
+
+div.photogallery img {
+	max-height: 275px;
+	width: auto;
+	border: 4px solid white;
+	margin: 0 auto;
+	padding: 0;
+}
+
+section.gallery div:first-child, section.gallery div:last-child {
+	display: none; /*HIDE FIRST & LAST PHOTOS FOR SMALLER SCREENS*/
 }
