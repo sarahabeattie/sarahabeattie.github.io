@@ -132,7 +132,7 @@ p.two-column a {
 	color: white;
 }
 
-p.two-column a:hover {
+p.two-column:hover {
 	background-color: #F58025;
 }
 
@@ -150,15 +150,19 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 5px 0px;
 }
 
-h1 {
+h1, h2 {
 	font-size: 28px;
 }
 
-h2, h3 {
-	font-size: 26px;
+section:nth-child(odd) h3 {
+	color: #16023B;; /*blue*/
 }
 
-h4 {
+section:nth-child(even) h3 {
+	color: white;
+}
+
+h3, h4 {
 	font-size: 22px;
 }
 
@@ -191,4 +195,10 @@ div.photogallery img {
 
 section.gallery div:first-child, section.gallery div:last-child {
 	display: none; /*HIDE FIRST & LAST PHOTOS FOR SMALLER SCREENS*/
+}
+
+/*SECTION 2: Team*/
+
+section#team, section#girls {
+	padding-top: 30px;
 }

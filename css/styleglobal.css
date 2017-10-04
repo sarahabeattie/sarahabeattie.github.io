@@ -53,6 +53,10 @@ h6 {
 	color: #16023B; /*blue*/
 }
 
+.more-info h1, .more-info h2, .more-info h3, .more-info h4, .more-info h5, .more-info h6 {
+	color: #16023B; /*blue*/
+}
+
 /*BODY COPY*/
 
 p, li, div.more-info p, div#footer div {
