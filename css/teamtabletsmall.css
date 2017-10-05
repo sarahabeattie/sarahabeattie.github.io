@@ -35,6 +35,10 @@ h5, h6 {
 	font-size: 24px;
 }
 
+div.more-info p, div.more-info p li {
+	font-size: 20px;
+}
+
 /*HEADER SECTION*/
 
 header {

@@ -171,6 +171,10 @@ h3, h4 {
 h5, h6 {
 	font-size: 18px;
 }
+ 
+div.more-info p, div.more-info p li {
+	font-size: 16px;
+}
 
 
 /*SECTION 1: Photo Gallery*/
@@ -245,4 +249,8 @@ div.content > div.teamnav:hover p a {
 
 section#team, section#girls {
 	padding-top: 30px;
+}
+
+div.more-info img {
+	max-width: 150px;
 }

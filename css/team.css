@@ -1,4 +1,8 @@
-/*BACKGROUND IMAGE*/
+/*HEADINGS*/
+
+div.more-info h2 {
+	padding-bottom: 10px;
+}
 
 /*BODY COPY*/
 
@@ -90,4 +94,13 @@ div.more-info p.answer {
 div.more-info li, div.content li {
 	list-style: disc;
 	list-style-position: inside;
+}
+
+div.more-info h2, div.more-info h3 {
+	text-align: center;
+}
+
+div.more-info img {
+	float: right;
+	height: auto;
 }
