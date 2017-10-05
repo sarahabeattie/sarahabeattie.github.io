@@ -84,3 +84,7 @@ div.content div.team img {
 	height: 170px;
 	width: auto;
 }
+
+div.more-info img {
+	max-width: 250px;
+}

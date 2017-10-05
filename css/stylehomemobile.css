@@ -88,7 +88,7 @@ ul.sub-menu li {
 	border: 1px solid #16023B; /*blue*/
 	border-radius: 2px; 
 	margin: 5px 0;
-	padding: 2px;
+	padding-left: 3px;
 	width: 90px;
 }
 
@@ -147,3 +147,10 @@ div.slider img {
 	max-width: 60vw;
 	margin: 10px auto;
 }
+
+/*FOOTER COPY SIZING*/
+
+div#footer div {
+	text-align: center;
+	font-size: 16px;
+}	

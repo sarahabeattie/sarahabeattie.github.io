@@ -44,6 +44,6 @@ p a, div.more-info li a, div.content li a {
 	text-decoration: underline #F58025; /*orange*/
 }
 
-button a:hover, div.content li a:hover, a.expand-link:hover, a.backtotop:hover {
+button a:hover, div.content a:hover, div.content li a:hover, a.expand-link:hover, a.backtotop:hover {
 	text-transform: uppercase;
 }

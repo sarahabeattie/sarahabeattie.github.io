@@ -32,4 +32,8 @@ div.slider img {
 	max-width: 900px; /*previously 900px*/
 }
 
+div#footer div {
+	text-align: left;
+}	
+
 }

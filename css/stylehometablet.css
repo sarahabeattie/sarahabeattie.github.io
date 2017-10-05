@@ -73,6 +73,7 @@ div.info {
 	margin: 3px 20px 5px ;
 	float: right;
 	width: auto;
+	padding-left: 0px;
 }
 
 #primary_nav_wrap ul li.current-menu-item > a {
@@ -207,4 +208,10 @@ img {
 .more-info img {
 	margin: auto;
 }
+
+/*FOOTER COPY SIZING*/
+
+div#footer div {
+	font-size: 20px;
+}	
 }
