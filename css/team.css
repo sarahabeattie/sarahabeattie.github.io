@@ -86,3 +86,8 @@ div.more-info p.question, span.strong {
 div.more-info p.answer {
 
 }
+
+div.more-info li, div.content li {
+	list-style: disc;
+	list-style-position: inside;
+}
