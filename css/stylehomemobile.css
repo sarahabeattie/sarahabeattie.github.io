@@ -1,7 +1,7 @@
 /*Styling for SMALLEST VIEWPORTS -- UP TO 767px width -- tablet css kicks in at that size.*/
 
 body { 
-  background: url(../images/Spring2013_graduates_bw.jpg) no-repeat top center scroll; /*scroll replaced fixed*/
+  background: url(../images/Spring2013_graduates_bw.jpg) no-repeat top center fixed; /*scroll replaced fixed*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

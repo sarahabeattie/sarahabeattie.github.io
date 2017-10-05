@@ -15,12 +15,6 @@
   border-bottom: 1px solid #16023B; /*blue*/
 }
 
-label{
-  width: 450px;
-  max-width: 100%;
-  cursor: pointer;
-}
-
 div.block span{
   display: block;
   margin: 2px;
@@ -113,26 +107,34 @@ header {
 
 header > div {
 	height: auto;
-	display: table;	/*GOES ON PARENT ELEMENT*/
+/*	display: table;	GOES ON PARENT ELEMENT*/
 	margin: 0 auto;
 }
 
-p.two-column {
+div.two-column {
 	text-align: center;
-	background: #16023B;
-	border: 4px solid white;
-	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
-	display: table-cell; /*GOES ON CHILD ELEMENT TO BE DISPLAYED*/
-	vertical-align: middle; /*GOES ON CHILD ELEMENT TO BE DISPLAYED*/
-	margin: auto;
-	padding: 10px;
+	display: block;
+
 }
 
-p.two-column a {
+div.two-column div {
+	border: 4px solid white;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+	margin: auto;
+	padding: 5px 0px;
+	width: 115px;
+	height: auto;
+	display: inline-block;
+	background: #16023B;
+	margin: 3px;
+
+}
+
+div.two-column div a {
 	color: white;
 }
 
-p.two-column:hover {
+div.two-column div:hover {
 	background-color: #F58025;
 }
 
@@ -198,6 +200,48 @@ section.gallery div:first-child, section.gallery div:last-child {
 }
 
 /*SECTION 2: Team*/
+
+div.content {
+	text-align: center;
+	max-width: 257px;
+}
+
+div.content div.team {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #16023B; /*blue*/
+	border: 2px solid white;
+	max-width: 225px;
+}
+
+div.teamnav {
+	width: 110px;
+	height: auto;
+	vertical-align: middle;
+}
+
+div.teamnav:nth-child(even) {
+	float: right;
+	border: 2px solid white;
+}
+
+div.teamnav:nth-child(odd) {
+	float: left;	
+	border: 2px solid white;
+}
+
+div.teamnav p a {
+	vertical-align: middle;
+}
+
+div.content > div.teamnav:hover {
+	background-color: white;
+}
+
+div.content > div.teamnav:hover p a {
+	color: #16023B; /*blue*/
+}
 
 section#team, section#girls {
 	padding-top: 30px;

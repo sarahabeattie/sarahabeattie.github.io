@@ -48,14 +48,24 @@ console.log("Hiding menu");
     });
 
  $(document).click(function() {
+    if ($(window).width() <= 767){
+      if ( this.id = '#primary_nav_wrap') {
+        $("#primary_nav_wrap").hide();
+      };
+    };
+  });
 
-  if( this.id = '#primary_nav_wrap') {
-    $("#primary_nav_wrap").hide();
-  }
+ $(window).resize(function() {
+    if ($(window).width() > 767){
+      $("#primary_nav_wrap").show();
+    };
+  });
 
-});
-
-});
+ $(window).resize(function() {
+    if ($(window).width() <= 767){
+      $("#primary_nav_wrap").hide();
+    };
+  });
 
 // Keep top nav on top when scrolling:
 
@@ -64,7 +74,7 @@ $(document).scroll(function() {
   $('div#nav-main').css("z-index", "1")
   $('div#nav-main').css("position", "relative;")
   $('div#nav-main').css("border-bottom", "1px solid #7a7a7a")
-})
+});
 
 // Background image sizing:
 
@@ -92,13 +102,7 @@ $(window).load(function() {
 
 });
 
-// Collapse menu by clicking anywhere
-
-// $(window).click(function() {
-//   if ($('#menu input:checkbox').is('checked')) {
-//         $('#menu input:checkbox').removeAttr('checked');
-//       };
-// });
+});
 
 
   

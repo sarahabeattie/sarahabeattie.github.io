@@ -1,0 +1,82 @@
+/*568px- 767px*/
+@media(min-width: 568px) {
+
+/*HEADING MOBILE SIZING*/
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 5px 0px;
+}
+
+h1 {
+	font-size: 68px;
+}
+
+h2 {
+	font-size: 52px;
+}
+
+section:nth-child(odd) h3 {
+	color: #16023B;; /*blue*/
+}
+
+section:nth-child(even) h3 {
+	color: white;
+}
+
+h3 {
+	font-size: 40px;
+}
+
+h4 {
+	font-size: 32px;
+}
+
+h5, h6 {
+	font-size: 24px;
+}
+
+/*HEADER SECTION*/
+
+header {
+	max-width: 500px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+div.two-column div {
+	margin: auto;
+	padding: 5px 50px;
+	width: 200px;
+	margin: 5px;
+}
+/*SECTION 1: Photo Gallery*/
+
+section.gallery div:first-child, section.gallery div:last-child {
+	display: inline-block;
+}
+
+/*SECTION 2: Team*/
+
+div.content {
+	max-width: 500px;
+}
+
+div.teamnav:nth-child(even), div.teamnav:nth-child(odd) {
+	width: 107px;
+	height: 70px;
+	margin: 3px;
+	float: none;
+	display: inline-block;
+}
+
+div.content div.team {
+	margin: 5px;
+	display: inline-block;
+	width: 225px;
+	height: auto;
+}
+
+div.content div.team img {
+	height: 170px;
+	width: auto;
+}

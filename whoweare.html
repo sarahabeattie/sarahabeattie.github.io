@@ -22,9 +22,8 @@
 		<link rel="stylesheet" href="css/styleglobal.css">
     <link rel="stylesheet" type="text/css" href="css/team.css">
     <link rel="stylesheet" type="text/css" href="css/teammobile.css"> <!-- 0 - 567px -->
-    <!-- <link rel="stylesheet" type="text/css" href="css/teamtabletportrait.css"> --> <!-- 568px - 767px -->
-    <!-- INSERT TABLET PORTRAIT CSS --> <!-- 568px - 767px -->
-    <!-- INSERT TABLET PORTRAIT CSS --> <!-- 768px - 1024px -->
+    <link rel="stylesheet" type="text/css" href="css/teamtabletsmall.css"> <!-- 568px - 767px -->
+    <link rel="stylesheet" type="text/css" href="css/teamtabletlarge.css"> <!-- 768px - 1024px -->
     <!-- <link rel="stylesheet" href="css/desktop.css"> --> <!-- 1024px+ -->
 
     <script src="https://code.jquery.com/jquery-latest.js"></script>
@@ -37,14 +36,14 @@
         <div class="info">
           <div id="primary_nav_wrap">  
             <ul>
-              <li><a href="top">Home</a></li>
-              <li class="current-menu-item"><a href="#">Who We Are</a>
+              <li><a href="home.html">Home</a></li>
+              <li class="current-menu-item"><a href="whoweare.html">Who We Are</a>
                 <ul class="sub-menu">
-                  <li class="dir"><a href="#">Our Team</a></li>
-                  <li class="dir"><a href="#">Our Mission</a></li>
-                  <li class="dir"><a href="#">Our Girls</a></li>
-                  <li class="dir"><a href="#">Gallery</a></li>
-                  <li class="dir"><a href="#">Blog</a></li>
+                  <li class="dir"><a href="#team">Our Team</a></li>
+                  <li class="dir"><a href="#mission">Our Mission</a></li>
+                  <li class="dir"><a href="#girls">Our Girls</a></li>
+<!--                   <li class="dir"><a href="#">Gallery</a></li>
+                  <li class="dir"><a href="#">Blog</a></li> -->
                 </ul>
               <li><a href="#">Get Involved</a>
                 <ul class="sub-menu">
@@ -80,13 +79,13 @@
       <div>
         <img alt="Oasis for Girls Logo" src="images/oasisforgirlsLOGO.png">
       </div>
-      <div>
-        <p class="two-column"><a href="#team">Meet Our Team!</a></p><p class="two-column"><a href="#girls">Meet The Girls!</a></p>
+      <div class="two-column">
+        <div><a href="#team">Meet Our Team!</a></div><div><a href="#girls">Meet The Girls!</a></div>
       </div>
-      <a id="down" href="#slider"></a>
+      <a id="down" href="#gallery"></a>
     </header>
 
-    <section class="gallery">
+    <section class="gallery" id="gallery">
         <div class="photogallery"><img src="images/mariana.jpg"></div>
         <div class="photogallery"><img src="images/sadaf.jpg"></div>
         <div class="photogallery"><img src="images/tashina-rayna.jpg"></div>
@@ -94,9 +93,66 @@
         <div class="photogallery"><img src="images/saman.jpg"></div>
     </section>
 
-    <section id="team">
-        <div class="content">
+    <section>
+      <div class="content" id="mission">
+        <h2>Our Mission</h2>
+        <p>Founded in 1999, Oasis For Girls partners with young women of color from under-resourced communities in San Francisco to help them cultivate the skills, knowledge, and confidence to discover their dreams and build strong futures.</p>
+        <br>
+        <p>
+          <a class="expand-link" href="#" data-featherlight="#oasisinfo">More Info</a>
+        </p>
+        <div id="oasisinfo" class="more-info">
+          <img src="images/OasisHeader.png" alt="oasislogo">
+          <h2>Our Mission</h2>
+          <br>
+          <h3>The Why</h3>
+          <br>
+            <p>Oasis For Girls partners with young women of color aged 14-18 from under-resourced communities in San Francisco many of whom are on the edge of risk, not on anyone’s radar, disengaged or under-supported, or just beginning to dabble in difficulty.</p>
+            <br>
+            <p>By almost any measure, to be young, female, and of color in San Francisco means the odds are stacked against you. Our girls face more barriers to resources and opportunities, and are disproportionately impacted by systemic inequalities and policies than other girls their age. Many of their peers will not finish high school, enter into high-growth industries, or be able to leave high-poverty neighborhoods.</p>
+            <br>
+            <p>We believe that comprehensive change in our communities starts with the girls being affected now.</p>
+            <br>
+            <br>
+
+          <h3>The How</h3>
+          <br>
+            <p>At Oasis, we start with a baseline of the validity and value of girls’ individual experiences, and support them in developing the tools they already have. Our girl-focused and girl-responsive programs provide participants with access to diverse opportunities and experiences alongside training in personal and interpersonal skills, delivered in a safe, culturally relevant space that emphasizes autonomy, relationship-building, and positive decision-making.</p>
+            <br>
+            <p>Single-gender programming helps girls stay connected to academic subjects, encourages them to explore new areas of interest, and lets them practice new skills with the support of positive adult allies. Our Springboard Series for Girls is a compound sequence that emphasizes comprehensive development of both internal awareness and external skills through <a target="_blank" href="http://www.sfoasis.org/what-we-do/create/">writing and the arts</a>, <a target="_blank" href="http://www.sfoasis.org/what-we-do/envision-career-exploration/">college and career planning</a>, and <a target="_blank" href="http://www.sfoasis.org/what-we-do/rise-life-skills/">building key life skills</a>.</p>
+            <br>
+            <br>
+
+          <h3>The Aha!</h3>
+          <br>
+            <p>Over 85% of the young women we serve each year:
+              <ul>
+                <li>enhance their writing, behavioral, and positive decision-making skills;</li>
+                <li>increase their knowledge of health, wellness and social justice;</li>
+                <li>demonstrate greater motivation to attend college;</li>
+                <li>and develop career interests in high-demand fields.</li>
+              </ul>
+            </p>
+            <br>
+            <p>At Oasis, we aim to empower a distinct, often overlooked group of women to recognize the strength of their diverse life experiences and lead the way for equitable, inclusive change, from breaking cycles of poverty to representing other vulnerable groups and advocating against gender and income inequality in their communities.</p>
+            <br>
+            <br>
+            <p>Oasis For Girls complies with the <a target="_blank" href="http://www.sfoasis.org/wp-content/uploads/2013/05/Criminal-Background-Check-Policy_OnePage_2015-05061.pdf">Fair Chance Ordinance</a>.
+        </div>
+        <br>
+        <br>
+        <br>
+      </div>
+        <div class="content clearfix">
+          <div id="team"></div>
           <h2>Our Team</h2>
+          <div class="teamnav"><p><a href="#founders">Founders</a></p></div>
+          <div class="teamnav"><p><a href="#staff">Staff</a></p></div>
+          <div class="teamnav"><p><a href="#advisoryboard">Advisory Board</a></p></div>
+          <div class="teamnav"><p><a href="#boardemeritus">Board Emeritus</a></p></div>
+          
+          <div class="clearfix"></div>
+            <div id="founders"></div>
             <h3>Founders</h3>
               <div><a class="expand-link" href="#" data-featherlight="#founderly">
                 <p>Ly Nguyen</p>
@@ -121,13 +177,17 @@
                 <br>
                 <p>In 2006, Jill and her family left San Francisco to move back to the Midwest. During her time in San Francisco, Jill was able to make some positive impacts on the city, including co-founding Oasis for Girls and starting up Excelsior Family Connections (a branch of Portola family Connections), a family resource center in the Excelsior district of the city. Along with other community leaders in the South of Market, Jill was the recipient of the San Francisco Foundation’s Koshland Civic Unity Award for her youth development work. Jill is also a practicing artist who creates sculptures and an avid lover of the outdoors.</p>
               </div>
+            <div id="staff" class="clearfix"></div>
             <div>
               <h3>Staff</h3>
                 <div class="team">
                   <div><a class="expand-link" href="#" data-featherlight="#jessicavantuyl"><img src="images/jessicavantuyl.jpg">
                     <p>Jessica Van Tuyl</p>
-                    <p>Executive Director</p>
-                  </div></a>
+                    <p>Executive Director
+                    <br>
+                    <br>
+                    </p></a>
+                  </div>
                   <div id="jessicavantuyl" class="more-info">
                     <h1>Jessica Van Tuyl</h1>
                     <h2>Executive Director</h2>
@@ -140,8 +200,11 @@
                 <div class="team">
                   <div><a class="expand-link" href="#" data-featherlight="#MoumitaChakraborty"><img src="images/MoumitaChakraborty.jpg">
                     <p>Moumita Chakraborty</p>
-                    <p>Development Director</p>
-                  </div></a>
+                    <p>Development Director
+                    <br>
+                    <br>
+                    </p></a>
+                  </div>
                   <div id="MoumitaChakraborty" class="more-info">
                     <h1>Moumita Chakraborty</h1>
                     <h2>Development Director</h2>
@@ -152,8 +215,8 @@
                 <div class="team">
                   <div><a class="expand-link" href="#" data-featherlight="#anbui"><img src="images/anbui.jpg">
                     <p>An Bùi</p>
-                    <p>ENVISION Coordinator</p>
-                  </div></a>
+                    <p>ENVISION Coordinator</p></a>
+                  </div>
                   <div id="anbui" class="more-info">
                     <h1>An Bùi</h1>
                     <h2>ENVISION Coordinator</h2>
@@ -164,7 +227,10 @@
                 <div class="team">
                   <div><a class="expand-link" href="#" data-featherlight="#crystalleal"><img src="images/crystalleal.jpg">
                     <p>Crystal Leal</p>
-                    <p>Office Manager</p></a>
+                    <p>Office Manager
+                    <br>
+                    <br>
+                    </p></a>
                   </div>
                   <div id="crystalleal" class="more-info">
                     <h1>Crystal Leal</h1>
@@ -312,12 +378,18 @@
                   </div>
               </div>
             </div>
+            <div id="advisoryboard" class="clearfix"></div>
             <div>
               <h3>Advisory Board</h3>
                 <div class="team">
                   <div><a class="expand-link" href="#" data-featherlight="#AmberMilks"><img src="images/AmberMilks.jpg">
                     <p>Amber Milks</p>
-                    <p>Director of Global Services Operations, Veeva Systems</p>
+                    <p>Director of Global Services Operations, Veeva Systems
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    </p>
                   </div></a>
                   <div id="AmberMilks" class="more-info">
                     <h1>Amber Milks</h1>
@@ -329,7 +401,12 @@
                 <div class="team">
                   <div><a class="expand-link" href="#" data-featherlight="#KatharaGreen"><img src="images/KatharaGreen.jpg">
                     <p>Kathara Green</p>
-                    <p>Senior Content Manager of Core Programs, Net Impact</p>
+                    <p>Senior Content Manager of Core Programs, Net Impact
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    </p>
                   </div></a>
                   <div id="KatharaGreen" class="more-info">
                     <h1>Kathara Green</h1>
@@ -341,7 +418,12 @@
                 <div class="team">
                   <div><a class="expand-link" href="#" data-featherlight="#MaryamGhofraniha"><img src="images/MaryamGhofraniha.jpg">
                     <p>Maryam Ghofraniha</p>
-                    <p>Head of Global Partnerships, LinkedIn For Good</p>
+                    <p>Head of Global Partnerships, LinkedIn For Good
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                    </p>
                   </div></a>
                   <div id="MaryamGhofraniha" class="more-info">
                     <h1>Maryam Ghofraniha</h1>
@@ -353,7 +435,10 @@
                 <div class="team">
                   <div><a class="expand-link" href="#" data-featherlight="#SadafMinapara"><img src="images/SadafMinapara.jpg">
                     <p>Sadaf Minapara</p>
-                    <p>Program Manager, Stanford Center on Democracy, Development, and Rule of Law</p>
+                    <p>Program Manager, Stanford Center on Democracy, Development, and Rule of Law
+                    <br>
+                    <br>
+                    </p>
                   </div></a>
                   <div id="SadafMinapara" class="more-info">
                     <h1>Sadaf Minapara</h1>
@@ -377,7 +462,13 @@
                 <div class="team">
                   <div><a class="expand-link" href="#" data-featherlight="#AnishaMocherla"><img src="images/AnishaMocherla.jpg">
                     <p>Anisha Mocherla</p>
-                    <p>Market Operations Specialist, Lyft</p>
+                    <p>Market Operations Specialist, Lyft
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                  </p>
                   </div></a>
                   <div id="AnishaMocherla" class="more-info">
                     <h1>Anisha Mocherla</h1>
@@ -389,7 +480,11 @@
                 <div class="team">
                   <div><a class="expand-link" href="#" data-featherlight="#CandiceCarvalho"><img src="images/CandiceCarvalho.jpg">
                     <p>Candice Carvalho</p>
-                    <p>Senior Strategic Finance Manager, Chan Zuckerberg Initiative</p>
+                    <p>Senior Strategic Finance Manager, Chan Zuckerberg Initiative
+                    <br>
+                    <br>
+                    <br>
+                    <br>
                   </div></a>
                   <div id="CandiceCarvalho" class="more-info">
                     <h1>Candice Carvalho</h1>
@@ -401,7 +496,11 @@
                 <div class="team">
                   <div><a class="expand-link" href="#" data-featherlight="#RobynBarnard"><img src="images/RobynBarnard.jpg">
                     <p>Robyn Barnard</p>
-                    <p>Staff Attorney, UC Hastings Center for Gender and Refugee Studies</p>
+                    <p>Staff Attorney, UC Hastings Center for Gender and Refugee Studies
+                    <br>
+                    <br>
+                    <br>
+                    </p>
                   </div></a>
                   <div id="RobynBarnard" class="more-info">
                     <h1>Robyn Barnard</h1>
@@ -413,7 +512,12 @@
                 <div class="team">
                   <div><a class="expand-link" href="#" data-featherlight="#AshleyKoziol"><img src="images/AshleyKoziol.jpg">
                     <p>Ashley Koziol</p>
-                    <p>Hiring Innovation Program Manager, Google</p>
+                    <p>Hiring Innovation Program Manager, Google
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    </p>
                   </div></a>
                   <div id="AshleyKoziol" class="more-info">
                     <h1>Ashley Koziol</h1>
@@ -423,6 +527,7 @@
                   </div>
                 </div>
               </div>
+              <div id="boardemeritus" class="clearfix"></div>
               <div>
                 <h3>Board Emeritus</h3>
                     <p>Amy Stice</p>
@@ -431,13 +536,10 @@
                     <p>Stephanie Kwong</p>
               </div>
                 <br>
-                <p>
-                  <br>
-                  <a class="backtotop" href="#">Back to Top</a>
-                </p>
-              </div>
+                <br>
+                <p><a class="backtotop" href="#top">Back to Top</a></p>
+              </div>   
             </div>
-
         </div>
     </section>
 
@@ -449,7 +551,7 @@
           <p>Oasis girls draw strength from diverse experiences and backgrounds, and break cycles of disempowerment and inequality in their communities while in program and long after.</p>
           <br>
           <h3>Featured Stories</h3>
-            <div><a class="expand-link" href="#" data-featherlight="#tashina-rayna"><img src="images/tashina-rayna.jpg"><div class="girlstitle">Tashina & Rayna Mims</div></a></div>
+            <div class="polaroid"><a class="expand-link" href="#" data-featherlight="#tashina-rayna"><img src="images/tashina-rayna.jpg"><div class="girlstitle">Tashina & Rayna Mims</div></a></div>
               <div id="tashina-rayna" class="more-info">
                 <h1>Hi, we’re Tashina and Rayna Mims!!</h1>
                 <img src="images/tashina-rayna.jpg">
@@ -501,7 +603,7 @@
                 <br>
                 <p class="answer">Rayna: Oasis helped me open up more; I was really angry and frustrated with things when I got here, but just having this safe space and supportive sisters helped me bloom socially. Now I know what I need for myself and what kinds of people I want around me. Nothing about what’s bothering me at any given minute is unique, you know? I met girls and even professional women who had gone through the same stuff. Just getting to know what’s out there was so cool, and I’m starting to plan to do something in computer science and aiming for things in the future.</p>
               </div>
-            <div><a class="expand-link" href="#" data-featherlight="#zuri-melissa"><img src="images/zuri-melissa.jpg"><div class="girlstitle">Zuri & Melissa Arellano</div></a></div>
+            <div class="polaroid"><a class="expand-link" href="#" data-featherlight="#zuri-melissa"><img src="images/zuri-melissa.jpg"><div class="girlstitle">Zuri & Melissa Arellano</div></a></div>
               <div id="zuri-melissa" class="more-info">
                 <h1>Hi, we’re Zuri and Melissa Arellano!</h1>
                 <img src="images/zuri-melissa.jpg">
@@ -545,7 +647,7 @@
                 <br>
                 <p class="question">The most important thing Oasis taught us was to be more supportive of other girls. Life is harder for women, we’re going to face a lot of things and have to fight for basic stuff all the time. But now we know how what’s okay and what’s not, and what to do about it. Also that messing up is okay, and learning how to just do me but better. There will always be a supportive group of Oasis sisters and others, and finding those bonds wherever we go will help make our own lives and communities better.</p>
               </div>
-              <div><a class="expand-link" href="#" data-featherlight="#sadaf-saman"><img src="images/saman.jpg"><div class="girlstitle">Sadaf & Saman Minapara</div></a></div>
+            <div class="polaroid"><a class="expand-link" href="#" data-featherlight="#sadaf-saman"><img src="images/saman.jpg"><div class="girlstitle">Sadaf & Saman Minapara</div></a></div>
               <div id="sadaf-saman" class="more-info">
                 <h1>Hi, we’re Sadaf and Saman Minapara!</h1>
                 <img src="images/saman.jpg">
@@ -576,7 +678,7 @@
                 <p class="question">The Women’s March in January 2017 was the largest single-day demonstration in US history, and sent a very clear message that women’s rights are human rights–again. It’s something we keep having to repeat and defend, and it was especially wonderful to see women of color coming to the forefront of the movement. But at the same time, the current climate makes just being a woman of color, never mind an immigrant or low-income worker, incredibly risky. Oasis’ programs and presence will be increasingly more important for empowering young women who will be driving their communities forward and providing them with a safe emotional and physical space to be confident, healthy leaders.</p>
                 <br>
               </div>
-              <div><a class="expand-link" href="#" data-featherlight="#raquel"><img src="images/raquel.png"><div class="girlstitle">Raquel - #OasisShero!</div></a></div>
+            <div class="polaroid"><a class="expand-link" href="#" data-featherlight="#raquel"><img src="images/raquel.png"><div class="girlstitle">Raquel - #OasisShero!</div></a></div>
               <div id="raquel" class="more-info">
                 <h1>Raquel - #OasisShero!</h1>
                 <img src="images/raquel.png">
@@ -616,7 +718,7 @@
                 <br>
                 <p class="question">Thank you for honoring our #OasisSheroes!</p>
               </div>
-              <div><a class="expand-link" href="#" data-featherlight="#halliana"><img src="images/halliana.jpg"><div class="girlstitle">Halliana - #OasisShero!</div></a></div>
+            <div class="polaroid"><a class="expand-link" href="#" data-featherlight="#halliana"><img src="images/halliana.jpg"><div class="girlstitle">Halliana - #OasisShero!</div></a></div>
               <div id="halliana" class="more-info">
                 <h1>Halliana - #OasisShero!</h1>
                 <img src="images/halliana.jpg">
@@ -652,8 +754,8 @@
                 </br>
                 <p class="question">Thank you for supporting our #OasisSheroes!</p>
               </div>
-              <div><a class="expand-link" href="#" data-featherlight="#raquel"><img src="images/irma.jpg"><div class="girlstitle">Irma - #OasisShero!</div></a></div>
-              <div id="raquel" class="more-info">
+            <div class="polaroid"><a class="expand-link" href="#" data-featherlight="#irma"><img src="images/irma.jpg"><div class="girlstitle">Irma - #OasisShero!</div></a></div>
+              <div id="irma" class="more-info">
                 <h1>Irma - #OasisShero!</h1>
                 <img src="images/irma.jpg">
                 <p class="question">Irma is a senior at School of the Arts and lives with her mother and sisters in the BayView Hunters Point neighborhood.</p>
@@ -681,25 +783,7 @@
                 <p class="answer">Irma: I am so excited- I was just accepted to study drama applied theater in London for Fall 2016! Through my studies, I’m hoping to help the audience understand something they didn’t understand before- the experience of being an LGBTQ person. I feel like I can make a difference in the world!</p>
                 <br>
               </div>
-              <div><a class="expand-link" href="#" data-featherlight="#sadaf"><img src="images/sadaf.jpg"><div class="girlstitle">Celebrating Sadaf!</div></a></div>
-              <div id="sadaf" class="more-info">
-                <h1>Celebrating Sadaf!</h1>
-                <img src="images/sadaf.jpg">
-                <p class="question">Oasis For Girls is turning 18 this year, but today we are celebrating a very special Oasis girl’s 31st! Sadaf Minapara was part of the original Oasis cohort in 1999, attending Mission High School in San Francisco and living in Columbia Heights, and came back to us as a board member last fall.</p>
-                <br>
-                <p class="answer">Birthdays are a time of reflection for many of us, and she said that looking back, she found that Oasis was behind many of her personal and professional accomplishments. “Oasis is my giving tree,” she laughs, “When I was a young girl, it was a safe space to learn, question, and focus on myself. Now I’m coming back with the hopes of giving back to the community that shaped me and learning a different set of leadership skills.”</p>
-                <br>
-                <p class="answer">Both Sadaf and Oasis have grown up in the meantime. She went on to UC Berkeley, double majoring in Political Science and South and Southeast Asian Studies; opened her own floral business, Baynisa Blooms; and is currently a Program Manager at Stanford University’s Center on Democracy, Development, and Rule of Law. Oasis has expanded from one program to three, each fostering different critical aspects of girls’ development as socially conscious, empowered women with the academic and career tools to achieve their dreams.</p>
-                <br>
-                <p class="answer">“Most of the girls I grew up with had to deal with traditional cultural values at home and the realities of being a young woman in a city like San Francisco,” Sadaf says, “This is a key part of what it means to be a young person of color, and the daughter of immigrants; that isn’t going to change.” At Oasis, girls have a valuable middle space to focus on themselves and the women they want to be, celebrating their roots and actively engaging in shaping the city they call home.</p>
-                <br>
-                <p class="answer">Community is important at Oasis—the community of girls, the neighborhoods they live in, their family circles, and their city. Coming back home to San Francisco, Sadaf says she looked for something to support in a meaningful way. “Many people donate to big causes or organizations on a national or international scale, but change really starts at home, and a lot of the policies and attitudes that need changing impact people in very real ways in our communities. If you put it into those terms, the reality is that you’re getting the most for your investment in smaller community-based organizations that create lasting ripples of change.”</p>
-                <br>
-                <p class="answer">For Sadaf, leading the charge for the younger generation of girls like herself was doubly important in our current climate. “We talk a lot about women in tech here, but wherever Oasis girls go, they will need a strong sense of self, understanding of social justice and womanhood, leadership skills, and a sense of community. We need girls like them to speak up and demand better, and they learn to do that at Oasis.”</p>
-                <br>
-                <p class="answer">This year, Sadaf is asking for birthday donations to Oasis in lieu of (or in addition to!) any gifts. Please celebrate Sadaf with us! Put your birthday wishes in the comments, and show your love <a href="#">here</a>.</p>
-              </div>
-              <div><a class="expand-link" href="#" data-featherlight="#mariana"><img src="images/mariana.jpg"><div class="girlstitle">Mariana - #OasisShero</div></a></div>
+            <div class="polaroid"><a class="expand-link" href="#" data-featherlight="#mariana"><img src="images/mariana.jpg"><div class="girlstitle">Mariana - #OasisShero</div></a></div>
               <div id="mariana" class="more-info">
                 <h1>Mariana - #OasisShero</h1>
                 <img src="images/mariana.jpg">
@@ -723,9 +807,27 @@
                 <br>
                 <p class="question">Thank you for honoring our #OasisSheroes!</p>
               </div>
+            <div class="polaroid"><a class="expand-link" href="#" data-featherlight="#sadaf"><img src="images/sadaf.jpg"><div class="girlstitle">Celebrating Sadaf!</div></a></div>
+              <div id="sadaf" class="more-info">
+                <h1>Celebrating Sadaf!</h1>
+                <img src="images/sadaf.jpg">
+                <p class="question">Oasis For Girls is turning 18 this year, but today we are celebrating a very special Oasis girl’s 31st! Sadaf Minapara was part of the original Oasis cohort in 1999, attending Mission High School in San Francisco and living in Columbia Heights, and came back to us as a board member last fall.</p>
+                <br>
+                <p class="answer">Birthdays are a time of reflection for many of us, and she said that looking back, she found that Oasis was behind many of her personal and professional accomplishments. “Oasis is my giving tree,” she laughs, “When I was a young girl, it was a safe space to learn, question, and focus on myself. Now I’m coming back with the hopes of giving back to the community that shaped me and learning a different set of leadership skills.”</p>
+                <br>
+                <p class="answer">Both Sadaf and Oasis have grown up in the meantime. She went on to UC Berkeley, double majoring in Political Science and South and Southeast Asian Studies; opened her own floral business, Baynisa Blooms; and is currently a Program Manager at Stanford University’s Center on Democracy, Development, and Rule of Law. Oasis has expanded from one program to three, each fostering different critical aspects of girls’ development as socially conscious, empowered women with the academic and career tools to achieve their dreams.</p>
+                <br>
+                <p class="answer">“Most of the girls I grew up with had to deal with traditional cultural values at home and the realities of being a young woman in a city like San Francisco,” Sadaf says, “This is a key part of what it means to be a young person of color, and the daughter of immigrants; that isn’t going to change.” At Oasis, girls have a valuable middle space to focus on themselves and the women they want to be, celebrating their roots and actively engaging in shaping the city they call home.</p>
+                <br>
+                <p class="answer">Community is important at Oasis—the community of girls, the neighborhoods they live in, their family circles, and their city. Coming back home to San Francisco, Sadaf says she looked for something to support in a meaningful way. “Many people donate to big causes or organizations on a national or international scale, but change really starts at home, and a lot of the policies and attitudes that need changing impact people in very real ways in our communities. If you put it into those terms, the reality is that you’re getting the most for your investment in smaller community-based organizations that create lasting ripples of change.”</p>
+                <br>
+                <p class="answer">For Sadaf, leading the charge for the younger generation of girls like herself was doubly important in our current climate. “We talk a lot about women in tech here, but wherever Oasis girls go, they will need a strong sense of self, understanding of social justice and womanhood, leadership skills, and a sense of community. We need girls like them to speak up and demand better, and they learn to do that at Oasis.”</p>
+                <br>
+                <p class="answer">This year, Sadaf is asking for birthday donations to Oasis in lieu of (or in addition to!) any gifts. Please celebrate Sadaf with us! Put your birthday wishes in the comments, and show your love <a href="#">here</a>.</p>
+              </div>
               <p>
               <br>
-              <a class="backtotop" href="#">Back to Top</a>
+              <a class="backtotop" href="#top">Back to Top</a>
             </p>
         </div>
     </section>

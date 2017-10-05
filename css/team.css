@@ -39,20 +39,6 @@ button a:hover, a.expand-link:hover, a.backtotop:hover  {
 	text-transform: uppercase;
 }
 
-div.content {
-	text-align: center;
-	max-width: 257px;
-}
-
-div.content div.team {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding: 10px;
-	background-color: #16023B; /*blue*/
-	border: 2px solid white;
-	max-width: 225px;
-}
-
 div.content div.team p {
 	color: white;
 }

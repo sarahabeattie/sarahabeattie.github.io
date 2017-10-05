@@ -1,0 +1,167 @@
+/*768px*/
+@media(min-width: 768px) {
+
+/*MAIN NAVIGATION BAR*/
+
+.block
+{
+  margin: none;
+  background-color: transparent;
+  z-index: 1;
+  border: none;
+  top: 0;
+  width: 100%;
+  border-bottom: none; /*blue*/
+}
+
+div.menu {
+	display: none;
+}
+
+div.info {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+#primary_nav_wrap
+{
+	margin: auto;
+	margin-top: 5px;
+	position: fixed;
+	background-color: white;
+	z-index: 1;
+	border: 1px solid white;
+	top: 0;
+	width: 100%;
+	border-top: 1px solid #F58025; /*orange*/
+	border-bottom: 1px solid #F58025; /*orange*/
+	display: block;
+}
+
+#primary_nav_wrap ul
+{
+	max-width: 900px;
+	list-style: none;
+	margin: 2px auto;
+	padding: 0;
+}
+
+#primary_nav_wrap ul a {
+	display: block;
+	color: #16023B; /*blue*/
+	text-decoration: none;
+	font-size: 16px;
+	padding: 0 15px;
+	margin: 5px auto;
+	font-family:'Lato', sans-serif;
+}
+
+#primary_nav_wrap ul li {
+	position: relative;
+	float: left;
+	text-align: center;
+	margin: auto;
+	padding: 0
+}
+
+#primary_nav_wrap ul li#donate {
+	border: 1px solid white;
+	margin: 3px 20px 5px ;
+	float: right;
+	width: auto;
+}
+
+#primary_nav_wrap ul li.current-menu-item a {
+	color: #F58025;
+	text-transform: uppercase;
+}
+
+#primary_nav_wrap ul li a:hover {
+	text-transform: uppercase;
+	color: #F58025; /*orange*/
+}
+
+#primary_nav_wrap ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: white;
+	border-bottom: 1px solid white;
+	padding: 0
+}
+
+#primary_nav_wrap ul ul li {
+	float: none;
+	width: 200px;
+	text-align: left;
+}
+
+#primary_nav_wrap ul ul a {
+	line-height:140%;
+	padding:8px 15px
+}
+
+#primary_nav_wrap ul ul ul {
+	top: 0;
+	left: 100%
+}
+
+#primary_nav_wrap ul li:hover > ul {
+	display:block
+}
+
+ul.sub-menu li {
+	list-style: none;
+}
+
+
+/*HEADER SECTION*/
+
+header {
+	height: 100vh;
+	max-width: 700px;
+	padding-top: 50px;
+}
+
+a#down {
+	display: block;
+    position: absolute;
+    width: 30px;
+    bottom: 50px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+a#down:after {
+	content: " ";
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-right: 8px solid #F58025; /*orange*/
+	border-bottom: 8px solid #F58025; /*orange*/
+	transform: rotate(45deg);
+}
+
+/*SECTION 2: Team*/
+
+div.content {
+	max-width: 800px;
+}
+
+/*SECTION 3: GIRLS*/
+
+div.polaroid {
+	margin: 5px;
+	display: inline-block;
+	width: 300px;
+	height: auto;
+}
+
+div.polaroid img {
+	height: 250px;
+	width: auto;
+}
+
+}
