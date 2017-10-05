@@ -69,6 +69,7 @@ div.info {
 	margin: 3px 20px 5px ;
 	float: right;
 	width: auto;
+	padding-left: 0px;
 }
 
 #primary_nav_wrap ul li.current-menu-item > a {
