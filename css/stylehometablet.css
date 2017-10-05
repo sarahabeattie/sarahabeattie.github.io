@@ -75,7 +75,7 @@ div.info {
 	width: auto;
 }
 
-#primary_nav_wrap ul li.current-menu-item a {
+#primary_nav_wrap ul li.current-menu-item > a {
 	color: #F58025;
 	text-transform: uppercase;
 }
