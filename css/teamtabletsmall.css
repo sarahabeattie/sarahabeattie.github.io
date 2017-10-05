@@ -88,3 +88,11 @@ div.content div.team img {
 div.more-info img {
 	max-width: 250px;
 }
+
+/*FOOTER COPY SIZING*/
+
+div#footer div {
+	font-size: 20px;
+}	
+
+}
