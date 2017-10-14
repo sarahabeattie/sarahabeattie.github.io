@@ -1,4 +1,4 @@
-@media(min-width: 900px) {
+@media(min-width: 1040px) {
 
 /*DEFAULT CSS STARTER*/
 
@@ -33,6 +33,10 @@ h1 {
 
 h2 {
 	font-size: 32px;
+}
+
+header > div { /*targeting ONLY the very first div inside tag.*/
+	margin-top: auto;
 }
 
 header > div, section > div { /*targeting ONLY the very first div inside a section tag.*/

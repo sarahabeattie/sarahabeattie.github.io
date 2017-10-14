@@ -1,4 +1,4 @@
-@media(min-width: 600px) {
+@media(min-width: 768px) {
 
 h1, h2, h3, h4, h5, h6 {
 	padding: 10px;
@@ -10,6 +10,10 @@ h1 {
 
 h2 {
 	font-size: 24px;
+}
+
+header > div { /*targeting ONLY the very first div inside tag.*/
+	margin-top: 10vh;
 }
 
 header > div, section > div { /*targeting ONLY the very first div inside a section tag.*/
@@ -35,10 +39,8 @@ ul li a:hover {
 }
 
 div#footer div {
+	max-width: 600px;
 	font-size: 18px;
-	text-align: center;
-	height: auto;
-	padding-bottom: 15px;
 }
 
 }
