@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-    	<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="Oasis For Girls partners with girls and young women to help them cultivate the skills and confidence to discover their dreams and build strong futures.">
-			<title>Welcome to Oasis for Girls SF!</title>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Oasis For Girls partners with girls and young women to help them cultivate the skills and confidence to discover their dreams and build strong futures.">
+		
+        <title>Welcome to Oasis for Girls SF!</title>
 
-    <!-- Font: -->
-    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|IM+Fell+Double+Pica|Lato:300" rel="stylesheet">
+        <!-- Font -->
+        <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|IM+Fell+Double+Pica|Lato:300" rel="stylesheet">
 
-    <!-- My CSS links -->
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/entrypage.css">
-    <link rel="stylesheet" type="text/css" href="css/entrypagemobile.css">
-    <link rel="stylesheet" type="text/css" href="css/entrymobilelarge.css">
-    <link rel="stylesheet" type="text/css" href="css/entrypagetablet.css">
-    <link rel="stylesheet" type="text/css" href="css/entrypagedesktop.css">
+        <!-- My CSS links -->
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+    	<link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/entrypage.css">
+        <link rel="stylesheet" type="text/css" href="css/entrypagemobile.css">
+        <link rel="stylesheet" type="text/css" href="css/entrymobilelarge.css">
+        <link rel="stylesheet" type="text/css" href="css/entrypagetablet.css">
+        <link rel="stylesheet" type="text/css" href="css/entrypagedesktop.css">
 
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script type="text/javascript" src="js/entrypagebackground.js">></script>
+        <script src="//code.jquery.com/jquery-latest.js"></script>
+
 	</head>
 
 	<body>
@@ -30,19 +31,33 @@
                         <br>We're Oasis for Girls.
                     </h1>
                     <h2>What would you like to learn more about?</h2>
-                    <div id="quick-entry">
+                    <div>
                       <ul>
-                        <li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScjjbxP13FMGrFNfY6VUOPE_TtCQ_H9s3Ft8RvnoPFAbosHTA/viewform">Applying To Our Programs</a></li>
-                        <li><a target="_blank" href="http://www.sfoasis.org/volunteer/">Volunteering opportunities</a></li>
-                        <li><a target="_blank" href="http://www.sfoasis.org/about-us/staff-advisory-board/">The Oasis for Girls Team</a></li>
-                        <li><a target="_blank" href="http://www.sfoasis.org/donate/">Making a donation!</a></li>
+                        <li><a class="expand-link" href="#openModal" id="modallink1">Applying To Our Programs</a>
+                        </li>
+                        <li><a class="expand-link" href="#openModal" data-featherlight="#placeholderlink">Volunteering opportunities</a></li>
+                        <li><a target="_blank" href="whoweare.html">The Oasis for Girls Team</a></li>
+                        <li><a class="expand-link" href="#openModal" data-featherlight="#placeholderlink">Making a donation!</a></li>
                         <li>...or just head to our <a id="home" href="home.html">homepage</a>!</li>
                       </ul>
                     </div> 
+                    <div id="openModal" class="modalDialog">
+                        <div><a href="#close" title="Close" class="close">X</a>
+                            <p>
+                            <br>
+                            Redesign of this page not included in GA FEWD 34 final project.
+                            <br> 
+                            <br>
+                            Exit this modal and return to the page to click on any of the following links to see the other pages built for GA FEWD 34 final project: 
+                            <br>
+                                <br>"The Oasis for Girls Team"
+                                <br>"Homepage"
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </header>
         </div>
-
 
         <div id="footer">
             <div>
@@ -52,7 +67,8 @@
             </div>
         </div>
 
+<!-- My js -->
+    <script type="text/javascript" src="js/entrypagebackground.js"></script>
 
-    <!-- My js -->
     </body>
 </html>

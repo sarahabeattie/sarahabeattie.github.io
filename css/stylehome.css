@@ -11,16 +11,21 @@ body {
 
 /*BODY COPY*/
 
-div.more-info p, div.more-info a, div.more-info li {
+div.more-info p, 
+div.more-info a, 
+div.more-info li {
 	color: #16023B; /*blue*/
 }
 
-div.more-info li, div.content li {
+div.more-info li, 
+div.content li {
 	list-style: disc;
 	list-style-position: inside;
 }
 
-button, a.expand-link, a.backtotop {
+button, 
+a.expand-link, 
+a.backtotop {
 	font-family: 'Lato', cursive;
 	font-size: 20px;
 	margin-top: 20px;
@@ -40,10 +45,16 @@ button a {
 	color: white;
 }
 
-p a, div.more-info li a, div.content li a {
+p a, 
+div.more-info li a, 
+div.content li a {
 	text-decoration: underline #F58025; /*orange*/
 }
 
-button a:hover, div.content a:hover, div.content li a:hover, a.expand-link:hover, a.backtotop:hover {
+button a:hover, 
+div.content a:hover, 
+div.content li a:hover, 
+a.expand-link:hover, 
+a.backtotop:hover {
 	text-transform: uppercase;
 }
