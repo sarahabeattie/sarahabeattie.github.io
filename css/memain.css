@@ -1,4 +1,4 @@
-@import url(font-awesome.min.css);
+@import url(me.fontawesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 /*
@@ -608,7 +608,7 @@
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			background-image: url("images/headshot.jpg");
+			background-image: ; /* url("images/headshot.jpg"); */
 			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
@@ -1075,11 +1075,10 @@
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)); /*url("images/joshuatree.jpg")*/
-			background-size: cover, auto, 256px 256px;
-			background-position: center, top;
+			background-image: url("images/joshuatree.jpg");
+			background-size: cover;  /*cover, auto, 256px 256px; */
+			background-position: center top;
 			background-repeat: no-repeat;
-			z-index: 2;
 		}
 
 		#bg:after {
@@ -1091,11 +1090,10 @@
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("images/joshuatree.jpg");
-			background-position: top;
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.3), rgba(19, 21, 25, 0.3)); /* url("images/joshuatree.jpg"); */
+			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
-			z-index: 1;
 		}
 
 		body.is-article-visible #bg:after {
