@@ -1075,8 +1075,8 @@
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("images/joshuatree.jpg");
-			background-size: auto, /* 256px 256px */ ;
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)); /*url("images/joshuatree.jpg")*/
+			background-size: cover, auto, 256px 256px;
 			background-position: center, top;
 			background-repeat: no-repeat;
 			z-index: 2;
@@ -1092,7 +1092,7 @@
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			background-image: url("images/joshuatree.jpg");
-			background-position: center;
+			background-position: top;
 			background-size: cover;
 			background-repeat: no-repeat;
 			z-index: 1;
